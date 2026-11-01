@@ -1,0 +1,776 @@
+{
+ "scope": "EXPLORATORY reliability repeat on the READY63 cohort on this thinking-on endpoint (Qwen3.5-4B thinking ON, T 1, cap 32768, truncation = wrong, boxed-aware parser, rule O); NOT organiser parity",
+ "dry_run": false,
+ "scorer_sha256": "21b7e72bff0a59a7f4fd323deec7f9611ba732ed64389671b3b1ea7877e56aea",
+ "freeze_sha256": "eb403af6e019839d4a3fab78bfe8f2a50a41c6e0e9a4e277020137f821a57d4a",
+ "attempt": 1,
+ "gate_decision": "CONTINUE",
+ "gate_stop_reading": null,
+ "engine_cut_at_wave": null,
+ "operational": {
+  "wave_status": [
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "INCLUDED",
+   "PARTIAL"
+  ],
+  "included_waves": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "layout": {
+   "blocks": [
+    "block-00",
+    "block-01",
+    "block-02",
+    "block-03",
+    "block-04",
+    "block-05",
+    "block-06",
+    "block-07",
+    "block-08",
+    "block-09",
+    "block-10",
+    "block-11",
+    "block-12",
+    "block-13",
+    "block-14",
+    "block-15",
+    "block-16",
+    "block-17",
+    "block-18",
+    "block-19"
+   ],
+   "records": 8095,
+   "present_per_wave": [
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    407,
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    408,
+    376,
+    376
+   ]
+  },
+  "draws_in_included_waves": 7752,
+  "binding_failures": 0,
+  "binding_failure_list": [],
+  "status_by_family": {
+   "base|missing": 13,
+   "base|noanswer": 1,
+   "base|numeric": 2570,
+   "surface_dlm|abstain": 10,
+   "surface_dlm|missing": 8,
+   "surface_dlm|noanswer": 1,
+   "surface_dlm|numeric": 2561,
+   "surface_dlm|truncated": 4,
+   "surface_gs|abstain": 76,
+   "surface_gs|missing": 12,
+   "surface_gs|numeric": 2495,
+   "surface_gs|truncated": 1
+  },
+  "answer_path": {
+   "answer_line": 7712
+  },
+  "answer_line_vs_boxed_disagree": 0,
+  "truncated_by_family": {
+   "base": 0,
+   "surface_gs": 1,
+   "surface_dlm": 4
+  },
+  "output_token_quartiles": {
+   "base": [
+    3638.5,
+    5711.0,
+    8630.5
+   ],
+   "surface_gs": [
+    3518.5,
+    4916.0,
+    7288.5
+   ],
+   "surface_dlm": [
+    3422.75,
+    5021.0,
+    7645.5
+   ]
+  },
+  "per_wave_tags": {
+   "O": {
+    "0": {
+     "R": 31,
+     "NR": 3
+    },
+    "1": {
+     "NR": 4,
+     "R": 30
+    },
+    "2": {
+     "R": 30,
+     "NR": 4
+    },
+    "3": {
+     "R": 30,
+     "NR": 4
+    },
+    "4": {
+     "R": 32,
+     "NR": 2
+    },
+    "5": {
+     "NR": 2,
+     "R": 32
+    },
+    "6": {
+     "R": 31,
+     "NR": 3
+    },
+    "7": {
+     "R": 31,
+     "NR": 3
+    },
+    "8": {
+     "R": 32,
+     "NR": 2
+    },
+    "9": {
+     "R": 29,
+     "NR": 4,
+     "UNUSABLE": 1
+    },
+    "10": {
+     "R": 32,
+     "NR": 2
+    },
+    "11": {
+     "R": 32,
+     "NR": 2
+    },
+    "12": {
+     "R": 30,
+     "NR": 4
+    },
+    "13": {
+     "R": 31,
+     "NR": 3
+    },
+    "14": {
+     "R": 29,
+     "NR": 5
+    },
+    "15": {
+     "NR": 3,
+     "R": 31
+    },
+    "16": {
+     "R": 31,
+     "NR": 3
+    },
+    "17": {
+     "R": 31,
+     "NR": 3
+    },
+    "18": {
+     "UNUSABLE": 3,
+     "R": 28,
+     "NR": 3
+    }
+   },
+   "S": {
+    "0": {
+     "R": 31,
+     "UNUSABLE": 1,
+     "NR": 2
+    },
+    "1": {
+     "NR": 2,
+     "R": 30,
+     "UNUSABLE": 2
+    },
+    "2": {
+     "R": 30,
+     "NR": 3,
+     "UNUSABLE": 1
+    },
+    "3": {
+     "R": 30,
+     "NR": 3,
+     "UNUSABLE": 1
+    },
+    "4": {
+     "R": 32,
+     "UNUSABLE": 1,
+     "NR": 1
+    },
+    "5": {
+     "NR": 1,
+     "R": 32,
+     "UNUSABLE": 1
+    },
+    "6": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "7": {
+     "R": 31,
+     "NR": 2,
+     "UNUSABLE": 1
+    },
+    "8": {
+     "R": 32,
+     "UNUSABLE": 1,
+     "NR": 1
+    },
+    "9": {
+     "R": 29,
+     "NR": 3,
+     "UNUSABLE": 2
+    },
+    "10": {
+     "R": 32,
+     "NR": 1,
+     "UNUSABLE": 1
+    },
+    "11": {
+     "R": 32,
+     "UNUSABLE": 1,
+     "NR": 1
+    },
+    "12": {
+     "R": 30,
+     "NR": 2,
+     "UNUSABLE": 2
+    },
+    "13": {
+     "R": 31,
+     "NR": 2,
+     "UNUSABLE": 1
+    },
+    "14": {
+     "R": 29,
+     "UNUSABLE": 2,
+     "NR": 3
+    },
+    "15": {
+     "NR": 2,
+     "R": 31,
+     "UNUSABLE": 1
+    },
+    "16": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "17": {
+     "R": 31,
+     "UNUSABLE": 1,
+     "NR": 2
+    },
+    "18": {
+     "UNUSABLE": 6,
+     "R": 27,
+     "NR": 1
+    }
+   },
+   "L": {
+    "0": {
+     "R": 30,
+     "UNUSABLE": 2,
+     "NR": 2
+    },
+    "1": {
+     "NR": 2,
+     "R": 30,
+     "UNUSABLE": 2
+    },
+    "2": {
+     "R": 29,
+     "NR": 3,
+     "UNUSABLE": 2
+    },
+    "3": {
+     "R": 30,
+     "NR": 3,
+     "UNUSABLE": 1
+    },
+    "4": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "5": {
+     "UNUSABLE": 3,
+     "R": 31
+    },
+    "6": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "7": {
+     "UNUSABLE": 3,
+     "R": 29,
+     "NR": 2
+    },
+    "8": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "9": {
+     "R": 29,
+     "NR": 3,
+     "UNUSABLE": 2
+    },
+    "10": {
+     "R": 31,
+     "NR": 1,
+     "UNUSABLE": 2
+    },
+    "11": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "12": {
+     "R": 29,
+     "UNUSABLE": 4,
+     "NR": 1
+    },
+    "13": {
+     "R": 29,
+     "NR": 2,
+     "UNUSABLE": 3
+    },
+    "14": {
+     "R": 28,
+     "UNUSABLE": 3,
+     "NR": 3
+    },
+    "15": {
+     "NR": 2,
+     "R": 29,
+     "UNUSABLE": 3
+    },
+    "16": {
+     "R": 31,
+     "UNUSABLE": 2,
+     "NR": 1
+    },
+    "17": {
+     "R": 30,
+     "UNUSABLE": 2,
+     "NR": 2
+    },
+    "18": {
+     "UNUSABLE": 6,
+     "R": 27,
+     "NR": 1
+    }
+   }
+  }
+ },
+ "P1_kappa_O": {
+  "kappa": 0.38606945997368974,
+  "subjects": 34,
+  "pooled_NR": 0.09190031152647975,
+  "NR_tags": 59,
+  "binary_original_waves": 642,
+  "bootstrap": {
+   "ci95": [
+    0.06751283103131808,
+    0.6727156379706377
+   ],
+   "sd": 0.18862562666761942,
+   "valid": 2000,
+   "invalid": 0
+  }
+ },
+ "P2_noise_ceiling_O": {
+  "defined": true,
+  "pooled_NR": 0.09190031152647975,
+  "q_hat": {
+   "deepmathgap-dmgap_001569": 0.16666666666666666,
+   "deepmathgap-dmgap_002353": 0.0,
+   "deepmathgap-dmgap_005881": 0.05555555555555555,
+   "deepmathgap-dmgap_007427": 0.15789473684210525,
+   "deepmathgap-dmgap_008183": 0.05263157894736842,
+   "deepmathgap-dmgap_008499": 0.10526315789473684,
+   "deepmathgap-dmgap_009790": 0.05263157894736842,
+   "deepmathgap-dmgap_010130": 0.2631578947368421,
+   "deepmathgap-dmgap_010774": 0.0,
+   "deepmathgap-dmgap_012000": 0.0,
+   "deepmathgap-dmgap_012698": 0.0,
+   "deepmathgap-dmgap_012828": 0.0,
+   "deepmathgap-dmgap_013818": 1.0,
+   "deepmathgap-dmgap_015395": 0.0,
+   "deepmathgap-dmgap_015666": 0.0,
+   "deepmathgap-dmgap_016309": 0.0,
+   "deepmathgap-dmgap_016784": 0.0,
+   "deepmathgap-dmgap_017289": 0.21052631578947367,
+   "deepmathgap-dmgap_018207": 0.0,
+   "deepmathgap-dmgap_018250": 0.0,
+   "deepmathgap-dmgap_019010": 0.05263157894736842,
+   "deepmathgap-dmgap_019898": 0.0,
+   "deepmathgap-dmgap_021885": 0.0,
+   "deepmathgap-dmgap_022854": 0.05263157894736842,
+   "deepmathgap-dmgap_023247": 0.0,
+   "deepmathgap-dmgap_023923": 0.0,
+   "deepmathgap-dmgap_024679": 0.0,
+   "deepmathgap-dmgap_026173": 0.05263157894736842,
+   "deepmathgap-dmgap_031345": 0.0,
+   "deepmathgap-dmgap_032676": 0.3684210526315789,
+   "deepmathgap-dmgap_034442": 0.0,
+   "deepmathgap-dmgap_034491": 0.3333333333333333,
+   "deepmathgap-dmgap_034975": 0.0,
+   "deepmathgap-dmgap_035363": 0.21052631578947367
+  },
+  "q_summary": {
+   "n": 34,
+   "mean": 0.09219126246990025,
+   "min": 0.0,
+   "p2_5": 0.0,
+   "median": 0.0,
+   "p97_5": 0.4789473684210508,
+   "max": 1.0
+  },
+  "oracle_leave_wave_out": {
+   "n": 19,
+   "mean": 0.8816607442549644,
+   "min": 0.7041666666666667,
+   "p2_5": 0.7060416666666667,
+   "median": 0.9247311827956989,
+   "p97_5": 0.99296875,
+   "max": 1.0
+  },
+  "oracle_leave_wave_out_per_wave": [
+   1.0,
+   0.9416666666666667,
+   0.7833333333333333,
+   0.7083333333333334,
+   0.984375,
+   0.90625,
+   0.9408602150537635,
+   0.9301075268817204,
+   0.9140625,
+   0.8232758620689655,
+   0.953125,
+   0.9140625,
+   0.7041666666666667,
+   0.9301075268817204,
+   0.9793103448275862,
+   0.9354838709677419,
+   0.9247311827956989,
+   0.7580645161290323,
+   0.7202380952380952
+  ],
+  "eb_prior": {
+   "alpha": 0.18903452401435114,
+   "beta": 1.4938518490871107
+  },
+  "oracle_parametric_eb": {
+   "n": 19873,
+   "mean": 0.9284105121510314,
+   "min": 0.34375,
+   "p2_5": 0.7666666666666667,
+   "median": 0.9416666666666667,
+   "p97_5": 1.0,
+   "max": 1.0
+  },
+  "oracle_vs_k_wave_majority": {
+   "1": {
+    "n": 2981,
+    "mean": 0.9283675752308436,
+    "min": 0.45161290322580644,
+    "p2_5": 0.7741935483870968,
+    "median": 0.9416666666666667,
+    "p97_5": 1.0,
+    "max": 1.0
+   },
+   "3": {
+    "n": 2977,
+    "mean": 0.9696717310769922,
+    "min": 0.6060606060606061,
+    "p2_5": 0.8597110215053764,
+    "median": 0.984375,
+    "p97_5": 1.0,
+    "max": 1.0
+   },
+   "11": {
+    "n": 2997,
+    "mean": 0.995293543914697,
+    "min": 0.875,
+    "p2_5": 0.953125,
+    "median": 1.0,
+    "p97_5": 1.0,
+    "max": 1.0
+   }
+  }
+ },
+ "P3_repeat_gain_O": {
+  "estimand": "mean over defined included waves of AUC_w(interaction-A4) - AUC_w(point-K)",
+  "observed": 0.11436844335532935,
+  "defined_waves": 19,
+  "per_wave": [
+   -0.043010752688172005,
+   0.2583333333333333,
+   0.2416666666666667,
+   0.050000000000000044,
+   0.0390625,
+   0.5078125,
+   0.13440860215053763,
+   0.0,
+   0.046875,
+   0.008620689655172376,
+   0.1953125,
+   0.2734375,
+   -0.029166666666666674,
+   0.016129032258064502,
+   0.07586206896551728,
+   0.27956989247311825,
+   0.08602150537634412,
+   -0.021505376344086002,
+   0.05357142857142855
+  ],
+  "wave_min": -0.043010752688172005,
+  "wave_max": 0.5078125,
+  "waves_with_loss": 3,
+  "original_bootstrap": {
+   "ci95": [
+    -0.05444181904417755,
+    0.27530983785305085
+   ],
+   "sd": 0.0857633926544677,
+   "valid": 2000,
+   "invalid": 0
+  },
+  "template_bootstrap": {
+   "ci95": [
+    -0.058329822937944545,
+    0.2849498331706607
+   ],
+   "sd": 0.08605175313786438,
+   "valid": 2000,
+   "invalid": 0
+  },
+  "mde80": 0.24027345311597503
+ },
+ "S1_strict": {
+  "kappa": {
+   "kappa": 0.1036062042074403,
+   "subjects": 33,
+   "pooled_NR": 0.05519480519480519,
+   "NR_tags": 34,
+   "binary_original_waves": 616,
+   "bootstrap": {
+    "ci95": [
+     0.021364057469932283,
+     0.17478144140239826
+    ],
+    "sd": 0.040116216982960154,
+    "valid": 2000,
+    "invalid": 0
+   }
+  },
+  "gain": {
+   "estimand": "mean over defined included waves of AUC_w(interaction-A4) - AUC_w(point-K)",
+   "observed": 0.05751126305598379,
+   "defined_waves": 19,
+   "per_wave": [
+    -0.16935483870967744,
+    0.2916666666666667,
+    0.2333333333333334,
+    -0.01666666666666672,
+    -0.15625,
+    0.75,
+    0.2903225806451613,
+    -0.10483870967741937,
+    -0.140625,
+    -0.051724137931034475,
+    0.15625,
+    0.3125,
+    -0.16666666666666663,
+    -0.09677419354838712,
+    0.005747126436781547,
+    0.2983870967741935,
+    -0.11290322580645162,
+    -0.13709677419354838,
+    -0.09259259259259267
+   ],
+   "wave_min": -0.16935483870967744,
+   "wave_max": 0.75,
+   "waves_with_loss": 11,
+   "original_bootstrap": {
+    "ci95": [
+     -0.10076868061269274,
+     0.2382011002296867
+    ],
+    "sd": 0.08441699377555863,
+    "valid": 2000,
+    "invalid": 0
+   },
+   "template_bootstrap": {
+    "ci95": [
+     -0.1025475343627238,
+     0.2297221141313883
+    ],
+    "sd": 0.08428646335314428,
+    "valid": 2000,
+    "invalid": 0
+   },
+   "mde80": 0.23650140191913951
+  }
+ },
+ "S2_legacy_parser_kappa": {
+  "kappa": 0.07348071352622636,
+  "subjects": 33,
+  "pooled_NR": 0.05351170568561873,
+  "NR_tags": 32,
+  "binary_original_waves": 598,
+  "bootstrap": {
+   "ci95": [
+    -0.033511318667515826,
+    0.16158875710188056
+   ],
+   "sd": 0.052580879777841615,
+   "valid": 2000,
+   "invalid": 0
+  }
+ },
+ "S3_cross_endpoint": {
+  "n": 32,
+  "spearman": 0.5737159423912155,
+  "ci95": [
+   0.2696746942417103,
+   0.7882692564507445
+  ],
+  "valid": 2000,
+  "mean_NR_fraction_thinking": 0.05628654970760233,
+  "mean_NR_fraction_nothink": 0.3345209823737259
+ },
+ "S4_mechanism": {
+  "n": 34,
+  "spearman_fragile_vs_N0": 0.6574826228411371,
+  "ci95": [
+   0.34519622971508696,
+   0.8733064794916862
+  ],
+  "valid": 2000,
+  "mean_excess_over_N0": 0.007803999666982664
+ },
+ "diagnostics": {
+  "kappa_by_half_O": {
+   "first_half": {
+    "waves": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "kappa": 0.39068100358422997,
+    "pooled_NR": 0.08823529411764706
+   },
+   "second_half": {
+    "waves": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "kappa": 0.3609520123839015,
+    "pooled_NR": 0.09523809523809523
+   }
+  }
+ },
+ "comparators": {
+  "note": "READY63 no-think repeat (Qwen3.5-4B, thinking off, cap 4096, 100 waves); descriptive only, no test of the difference",
+  "kappa": {
+   "kappa": 0.13842273207449968,
+   "subjects": 32,
+   "pooled_NR": 0.31447661469933186,
+   "formula": "unequal-rater Fleiss: P_i=sum n_ij(n_ij-1)/(n_i(n_i-1)), P_e from pooled proportions"
+  },
+  "kappa_ci95": [
+   0.07,
+   0.19
+  ],
+  "oracle_leave_wave_out_mean": 0.7639017740715118,
+  "repeat_gain": {
+   "estimand": "mean over defined waves of AUC_w(interaction-A4)-AUC_w(point-K), strict n4",
+   "observed": 0.04235499027612723,
+   "defined_waves": 100,
+   "original_bootstrap": {
+    "ci95": [
+     -0.04986364909528894,
+     0.13990560440632266
+    ],
+    "valid": 2000
+   },
+   "template_bootstrap": {
+    "ci95": [
+     -0.06336606940285316,
+     0.15367136140706592
+    ],
+    "valid": 2000
+   }
+  }
+ }
+}

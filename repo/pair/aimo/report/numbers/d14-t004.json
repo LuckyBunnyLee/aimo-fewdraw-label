@@ -1,0 +1,242 @@
+{
+ "tier": "Exploratory; D14 t004 producer for report draft v0.4 (causal-length E P1 scored once by the frozen scorer, comp audit stop, AN-63 split, AN-08 RF arm; two values constructed).",
+ "values": {
+  "cl_cohort": 160,
+  "cl_cohort_nr": 80,
+  "cl_cohort_r": 80,
+  "cl_waves": 12,
+  "cl_records": 46080,
+  "cl_orig_waves": 1920,
+  "cl_not_reached": 0,
+  "cl_dose": 0.822,
+  "cl_power_005": 0.84,
+  "cl_null_inside": 0.81,
+  "cl_audit_comp_n": 90,
+  "cl_audit_para_n": 40,
+  "cl_comp_flagged": 16,
+  "cl_para_flagged": 2,
+  "cl_comp_flagged_pct": 18,
+  "cl_comp_flagged_r1": 13,
+  "cl_comp_flagged_r2": 16,
+  "cl_p1": 0.026,
+  "cl_p1_n": 157,
+  "cl_p1_ci95": [
+   -0.005,
+   0.058
+  ],
+  "cl_p1_ci975": [
+   -0.009,
+   0.063
+  ],
+  "cl_p1_hi975": 0.063,
+  "cl_p1_reading": "inconclusive",
+  "cl_s2": -0.002,
+  "cl_s2_ci": [
+   -0.013,
+   0.008
+  ],
+  "cl_dn0": 0.01,
+  "cl_dn0_ci": [
+   -0.001,
+   0.02
+  ],
+  "cl_s4": 0.016,
+  "cl_s4_ci": [
+   -0.011,
+   0.046
+  ],
+  "cl_s5": 0.015,
+  "cl_s5_ci": [
+   0.003,
+   0.028
+  ],
+  "cl_s6_diff": 0.013,
+  "cl_s6_diff_ci": [
+   -0.011,
+   0.037
+  ],
+  "cl_s7_nr": 0.038,
+  "cl_s7_nr_ci": [
+   -0.007,
+   0.082
+  ],
+  "cl_s7_r": 0.015,
+  "cl_s7_r_ci": [
+   -0.028,
+   0.058
+  ],
+  "cl_m1": -0.024,
+  "cl_m1_ci": [
+   -0.035,
+   -0.013
+  ],
+  "cl_m2_direct": 0.019,
+  "cl_m2_direct_ci": [
+   -0.013,
+   0.053
+  ],
+  "cl_m2_indirect": -0.002,
+  "cl_m2_indirect_ci": [
+   -0.011,
+   0.007
+  ],
+  "cl_s7_nr_n": 77,
+  "cl_s7_r_n": 80,
+  "cl_s6_control": 0.172,
+  "cl_s6_pad": 0.185,
+  "cl_s3": 0.032,
+  "cl_s3_ci": [
+   -0.006,
+   0.071
+  ],
+  "cl_obs_grad": 0.116,
+  "cl_obs_grad_n": 1255,
+  "cl_m3_readout": "mixed; reported as observed",
+  "cl_an49_readout": "mixed; reported as observed",
+  "cl_an49_slope": -0.21,
+  "cl_an49_slope_ci": [
+   -0.65,
+   0.29
+  ],
+  "cl_len_ratio": 2.3,
+  "cl_causal_pred": 0.095,
+  "cl_replay_n": 13,
+  "cl_replay_maxdiff": 9e-17,
+  "an63_w": 0.0075,
+  "an63_w_ci": [
+   -0.004,
+   0.019
+  ],
+  "an63_n": 0.0076,
+  "an63_n_ci": [
+   0.001,
+   0.014
+  ],
+  "an63_share_n": 0.5,
+  "an63_dacc_gs": -0.021,
+  "an63_dacc_gs_ci": [
+   -0.035,
+   -0.008
+  ],
+  "an63_dacc_dlm": -0.013,
+  "an63_dacc_dlm_ci": [
+   -0.023,
+   -0.002
+  ],
+  "an63_n_wider": 82,
+  "an63_n_narrower": 64,
+  "an63_reading": "mixed (no GPU follow-up proposed on this evidence)",
+  "an08_n": 34,
+  "an08_waves": 100,
+  "an08_rf_zero": 0.466,
+  "an08_rf_mean": 0.511,
+  "an08_rf_diff": 0.045,
+  "an08_lr": 0.487,
+  "an08_chars": 0.559,
+  "an08_waves_up": 59,
+  "an08_waves_down": 40
+ },
+ "raw_pointers": {
+  "cl_cohort": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /cohort",
+  "cl_cohort_nr": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /cohort_counts/NR",
+  "cl_cohort_r": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /cohort_counts/R",
+  "cl_waves": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /waves",
+  "cl_records": "explore/W9b/causal_length/score/RESULT.json :: /records",
+  "cl_orig_waves": "explore/W9b/causal_length/score/RESULT.json :: /original_waves",
+  "cl_not_reached": "explore/W9b/causal_length/score/RESULT.json :: /original_waves_not_reached",
+  "cl_dose": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /mean_dlog_pad_vs_control; 3 dp",
+  "cl_power_005": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /power_by_base_rate/0.290/power_at_0p05; 2 dp",
+  "cl_null_inside": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: /power_by_base_rate/0.290/p_ci95_inside_0p05_under_null; 2 dp",
+  "cl_audit_comp_n": "explore/W9b/causal_length/final/AUDIT-SAMPLE.json :: /rows arm == comp count",
+  "cl_audit_para_n": "explore/W9b/causal_length/final/AUDIT-SAMPLE.json :: /rows arm == para count",
+  "cl_comp_flagged": "explore/W9b/causal_length/final/audit/AUDIT-RESULTS.json :: /comp_flagged (union of two readers)",
+  "cl_para_flagged": "explore/W9b/causal_length/final/audit/AUDIT-RESULTS.json :: /para_flagged (union of two readers)",
+  "cl_comp_flagged_pct": "explore/W9b/causal_length/final/audit/AUDIT-RESULTS.json :: /comp_flagged over comp rows; integer %",
+  "cl_comp_flagged_r1": "explore/W9b/causal_length/final/audit/READER1.json :: /flagged arm == comp count",
+  "cl_comp_flagged_r2": "explore/W9b/causal_length/final/audit/READER2.json :: /flagged arm == comp count",
+  "cl_p1": "explore/W9b/causal_length/score/RESULT.json :: /P1/est; 3 dp",
+  "cl_p1_n": "explore/W9b/causal_length/score/RESULT.json :: /P1/n (originals with a binary wave in both conditions)",
+  "cl_p1_ci95": "explore/W9b/causal_length/score/RESULT.json :: /P1/ci95; 3 dp",
+  "cl_p1_ci975": "explore/W9b/causal_length/score/RESULT.json :: /P1/ci975; 3 dp",
+  "cl_p1_hi975": "explore/W9b/causal_length/score/RESULT.json :: /P1/ci975[1] (upper limit); 3 dp",
+  "cl_p1_reading": "explore/W9b/causal_length/score/RESULT.json :: /P1/reading",
+  "cl_s2": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S2_base_accuracy/est; 3 dp",
+  "cl_s2_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S2_base_accuracy/ci95; 3 dp",
+  "cl_dn0": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/dN0/est; 3 dp",
+  "cl_dn0_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/dN0/ci95; 3 dp",
+  "cl_s4": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S4_excess/est; 3 dp",
+  "cl_s4_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S4_excess/ci95; 3 dp",
+  "cl_s5": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S5_family_gap/est; 3 dp",
+  "cl_s5_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S5_family_gap/ci95; 3 dp",
+  "cl_s6_diff": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S6_unusable/diff/est; 3 dp",
+  "cl_s6_diff_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S6_unusable/diff/ci95; 3 dp",
+  "cl_s7_nr": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S7_strata/NR/est; 3 dp",
+  "cl_s7_nr_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S7_strata/NR/ci95; 3 dp",
+  "cl_s7_r": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S7_strata/R/est; 3 dp",
+  "cl_s7_r_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S7_strata/R/ci95; 3 dp",
+  "cl_m1": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M1_mediator_all12/est; 3 dp",
+  "cl_m1_ci": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M1_mediator_all12/ci95; 3 dp",
+  "cl_m2_direct": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M2/direct_a/est; 3 dp",
+  "cl_m2_direct_ci": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M2/direct_a/ci95; 3 dp",
+  "cl_m2_indirect": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M2/indirect/est; 3 dp",
+  "cl_m2_indirect_ci": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M2/indirect/ci95; 3 dp",
+  "cl_s7_nr_n": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S7_strata/*/n",
+  "cl_s7_r_n": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S7_strata/*/n",
+  "cl_s6_control": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S6_unusable/control; 3 dp",
+  "cl_s6_pad": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S6_unusable/pad; 3 dp",
+  "cl_s3": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S3_causal_vs_observational/est[0]; 3 dp",
+  "cl_s3_ci": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S3_causal_vs_observational/ci95[0]; 3 dp",
+  "cl_obs_grad": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S3_causal_vs_observational/obs_gradient/ame; 3 dp",
+  "cl_obs_grad_n": "explore/W9b/causal_length/score/RESULT.json :: /secondaries/S3_causal_vs_observational/obs_gradient/n",
+  "cl_m3_readout": "explore/W9b/causal_length/score/RESULT.json :: /mediation/M3_readout",
+  "cl_an49_readout": "explore/W9b/causal_length/score/RESULT.json :: /AN49/readout",
+  "cl_an49_slope": "explore/W9b/causal_length/score/RESULT.json :: /AN49/pred5_tracking/slope/est; 2 dp",
+  "cl_an49_slope_ci": "explore/W9b/causal_length/score/RESULT.json :: /AN49/pred5_tracking/slope/ci95; 2 dp",
+  "cl_len_ratio": "explore/W9b/causal_length/final/EVAL-FREEZE.json :: constructed: exp(mean_dlog_pad_vs_control), mean word-count ratio implied by the mean log dose; 1 dp",
+  "cl_causal_pred": "explore/W9b/causal_length/score/RESULT.json :: constructed: obs_gradient/ame (RESULT) x mean_dlog_pad_vs_control (EVAL-FREEZE); 3 dp",
+  "cl_replay_n": "explore/W9b/causal_length/replay/COMPARE.json :: /stats count",
+  "cl_replay_maxdiff": "explore/W9b/causal_length/replay/COMPARE.json :: /stats/*/diff maximum; 1 sig fig",
+  "an63_w": "explore/W9b/causal_length/an63/RESULT.json :: /stats/W/est; 4 dp",
+  "an63_w_ci": "explore/W9b/causal_length/an63/RESULT.json :: /stats/W/ci95; 3 dp",
+  "an63_n": "explore/W9b/causal_length/an63/RESULT.json :: /stats/N/est; 4 dp",
+  "an63_n_ci": "explore/W9b/causal_length/an63/RESULT.json :: /stats/N/ci95; 3 dp",
+  "an63_share_n": "explore/W9b/causal_length/an63/RESULT.json :: /shares/N; 2 dp",
+  "an63_dacc_gs": "explore/W9b/causal_length/an63/RESULT.json :: /stats/dacc_surface_gs/est; 3 dp",
+  "an63_dacc_gs_ci": "explore/W9b/causal_length/an63/RESULT.json :: /stats/dacc_surface_gs/ci95; 3 dp",
+  "an63_dacc_dlm": "explore/W9b/causal_length/an63/RESULT.json :: /stats/dacc_surface_dlm/est; 3 dp",
+  "an63_dacc_dlm_ci": "explore/W9b/causal_length/an63/RESULT.json :: /stats/dacc_surface_dlm/ci95; 3 dp",
+  "an63_n_wider": "explore/W9b/causal_length/an63/RESULT.json :: /n_originals_G_positive",
+  "an63_n_narrower": "explore/W9b/causal_length/an63/RESULT.json :: /n_originals_G_negative",
+  "an63_reading": "explore/W9b/causal_length/an63/RESULT.json :: /reading",
+  "an08_n": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /n_originals",
+  "an08_waves": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /waves",
+  "an08_rf_zero": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /mean_wave_AUC/RF_zero; 3 dp",
+  "an08_rf_mean": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /mean_wave_AUC/RF_mean; 3 dp",
+  "an08_rf_diff": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /H_source/diff; 3 dp",
+  "an08_lr": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /mean_wave_AUC/LR_zero; 3 dp",
+  "an08_chars": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /mean_wave_AUC/characters; 3 dp",
+  "an08_waves_up": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /waves_rf_mean_gt_zero",
+  "an08_waves_down": "explore/RA/an08-rf-20261024/RESULT-AN-08-RF.json :: /waves_rf_mean_lt_zero"
+ },
+ "checks": [
+  "every raw file sha pinned (reader files by the prefixes in the P1 amendment)",
+  "RESULT.eval_freeze_sha256 equals the pinned EVAL-FREEZE",
+  "both readers read the pinned audit sample",
+  "records == requests == frozen requests",
+  "replay ALL_MATCH",
+  "AN-63 gate equals RESULT S5",
+  "AN-08 LR unchanged under imputation and H_source supported"
+ ],
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\score\\RESULT.json": "dc5b00b5a96e4854fe4a4823426334015ff2c0b53fdbfb8557cbdc422794441b",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\final\\EVAL-FREEZE.json": "123f4d74c055dc2fd9834fa36e748e9b0207df1ed228391474d273273a7610e2",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\final\\AUDIT-SAMPLE.json": "e9c0c1cb30c3a386e4557146f8b198e4a22451efcea7b55f1473aa4f9e1374b3",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\final\\audit\\AUDIT-RESULTS.json": "9ed32797068cf95714a4e9b215f8354103d3260f1cc1641a280d1b2a7a5072ea",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\final\\audit\\READER1.json": "b91be30b54300c189eb8c4e5a9eba5d64fc43b6e5a1bd7a89aa4c913d9f05507",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\final\\audit\\READER2.json": "abfda8bb84d27e319d099aad22ebf728ac9cb0695ddcdfd2a60c366bef31e59e",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\replay\\COMPARE.json": "e2d4d2821b64eadfa2f8592df8ea7937fdeff601d6d60fa49c55a2af1f76b3b2",
+  "E:\\work\\research-cycle\\explore\\W9b\\causal_length\\an63\\RESULT.json": "01b5d73103e1f0b002bd200b071ff3e50d87e939e584ffc6c5e9398836e7f411",
+  "E:\\work\\research-cycle\\explore\\RA\\an08-rf-20261024\\RESULT-AN-08-RF.json": "ad1a2f7efe899bccfb47960109cf9bb2d666dc159d34d60fd40459caa970ccef"
+ },
+ "producer_sha256": "6c67457b1761a1de5970e1c87419d7dfbb393728e9eec9f660f929d80804898e"
+}

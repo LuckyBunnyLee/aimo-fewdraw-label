@@ -1,0 +1,25 @@
+{
+ "PRIMARY_solve_vs_sham": {
+  "est": 0.05182291666666665,
+  "ci95": [
+   0.03964762369791666,
+   0.06543945312499995
+  ],
+  "n": 320
+ },
+ "CAL1_base_minus_sham": {
+  "est": 0.0013020833333333422,
+  "ci95": [
+   -0.004948730468749992,
+   0.00722737630208334
+  ],
+  "n": 320
+ },
+ "CAL2_sham_z": {
+  "tests": 767,
+  "share_abs_z_gt_1_96": 0.04563233376792699,
+  "rule": "independent draws give about 0.05; above 0.10 fails",
+  "reading": "pass"
+ },
+ "PRIMARY_reading": "edit loss in solve probability"
+}

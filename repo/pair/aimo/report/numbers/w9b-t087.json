@@ -1,0 +1,163 @@
+{
+ "tier": "Exploratory; counts and fields read from sha-pinned outputs, including the post hoc joint-eligibility sensitivity (EXP-w9b-sham-joint, run once); W9b t087 producer for report v0.8.",
+ "values": {
+  "jt_n_used": 29,
+  "jt_triples": 683,
+  "jt_per_min": 11,
+  "jt_per_max": 33,
+  "jt_templates": 20,
+  "jt_real": 0.343,
+  "jt_real_ci": [
+   0.26,
+   0.428
+  ],
+  "jt_sham": 0.274,
+  "jt_sham_ci": [
+   0.191,
+   0.361
+  ],
+  "jt_delta": 0.069,
+  "jt_delta_ci": [
+   0.025,
+   0.117
+  ],
+  "jt_delta_ci_t": [
+   0.021,
+   0.121
+  ],
+  "jt_ratio": 0.8,
+  "jt_ratio_ci": [
+   0.66,
+   0.91
+  ],
+  "jt_both_bin": 683,
+  "jt_real_only": 50,
+  "jt_sham_only": 141,
+  "jt_neither": 83,
+  "jt_x_nr_nr": 102,
+  "jt_x_nr_r": 121,
+  "jt_x_r_nr": 64,
+  "jt_x_r_r": 396,
+  "jt_real_unus_sham_bin": 141,
+  "ord_per_wave": 408,
+  "dr_solve": 0.002,
+  "dr_solve_ci": [
+   -0.007,
+   0.012
+  ],
+  "dr_num": -0.001,
+  "dr_num_ci": [
+   -0.006,
+   0.003
+  ],
+  "dr_sham": 0.0,
+  "dr_sham_ci": [
+   -0.07,
+   0.07
+  ],
+  "s1_undef": 1,
+  "s1_undef_tag": "robust",
+  "s1_auc_base_excl": 0.639,
+  "s1_auc_base_excl_ci": [
+   0.58,
+   0.705
+  ],
+  "s1_auc_pool_excl": 0.742,
+  "s1_auc_base_s0": 0.639,
+  "tmpl_used29": 20,
+  "dc_E_base_ci_t": [
+   0.036,
+   0.123
+  ],
+  "dc_E_pool_ci_t": [
+   0.015,
+   0.071
+  ],
+  "dc_null_ci_t": [
+   0.161,
+   0.364
+  ],
+  "dc_edit_ci_t": [
+   0.014,
+   0.115
+  ],
+  "dc_resid_ci_t": [
+   -0.015,
+   0.048
+  ],
+  "dc_delta_solve_ci_t": [
+   0.012,
+   0.088
+  ],
+  "ex_top_pb": 1.0,
+  "ex_top_pg": 0.08,
+  "ex_top_pd": 0.89,
+  "top3_even_bin": [
+   0,
+   1,
+   4
+  ],
+  "r7_checks": 47,
+  "r7_match": 47,
+  "r7_indep": 41
+ },
+ "raw_pointers": {
+  "jt_n_used": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/n_used (of the 29 Phase 0 problems, >= 5 jointly binary triples)",
+  "jt_triples": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/n_joint_triples",
+  "jt_per_min": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/per_original/n_joint: min",
+  "jt_per_max": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/per_original/n_joint: max",
+  "jt_templates": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/n_templates_used",
+  "jt_real": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/real/est; 3 dp",
+  "jt_real_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/real/ci_original/ci95; 3 dp",
+  "jt_sham": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/sham/est; 3 dp",
+  "jt_sham_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/sham/ci_original/ci95; 3 dp",
+  "jt_delta": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/real_minus_sham/est; 3 dp",
+  "jt_delta_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/real_minus_sham/ci_original/ci95; 3 dp",
+  "jt_delta_ci_t": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/real_minus_sham/ci_template/ci95; 3 dp",
+  "jt_ratio": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/ratio_sham_over_real/est; 2 dp",
+  "jt_ratio_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/ratio_sham_over_real/ci_original/ci95; 2 dp",
+  "jt_both_bin": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table: real binary and sham binary",
+  "jt_real_only": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table: real binary, sham not",
+  "jt_sham_only": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table: sham binary, real not",
+  "jt_neither": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table: neither binary",
+  "jt_x_nr_nr": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table/NR|NR",
+  "jt_x_nr_r": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table/NR|R",
+  "jt_x_r_nr": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table/R|NR",
+  "jt_x_r_r": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table/R|R",
+  "jt_real_unus_sham_bin": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/state_table: real UNUSABLE, sham binary",
+  "ord_per_wave": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /order/per_wave_requests (wave-major queue order verified)",
+  "dr_solve": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /drift/base_solve_late_minus_early/est; 3 dp",
+  "dr_solve_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /drift/base_solve_late_minus_early/ci_original/ci95; 3 dp",
+  "dr_num": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /drift/base_numeric_late_minus_early/est; 3 dp",
+  "dr_num_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /drift/base_numeric_late_minus_early/ci_original/ci95; 3 dp",
+  "dr_sham": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/sham_drift_late_minus_early/est; 3 dp",
+  "dr_sham_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /joint/sham_drift_late_minus_early/ci_original/ci95; 2 dp",
+  "s1_undef": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /s1/n_undefined (base 0 of 4 correct)",
+  "s1_undef_tag": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /s1/undefined_y == [0]: its fresh-test tag was robust",
+  "s1_auc_base_excl": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /s1/auc_base_excl; 3 dp",
+  "s1_auc_base_excl_ci": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /s1/auc_base_excl_ci/ci95; 3 dp",
+  "s1_auc_pool_excl": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /s1/auc_pool_excl; 3 dp",
+  "s1_auc_base_s0": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /s1/auc_base_scored0 (undefined scored 0.0); 3 dp",
+  "tmpl_used29": "explore/W9b/decomp/SHAM-JOINT-RESULT.json :: /n_templates_used29",
+  "dc_E_base_ci_t": "explore/W9b/decomp/RESULT.json :: /B1/E_base/ci_template/ci95; 3 dp",
+  "dc_E_pool_ci_t": "explore/W9b/decomp/RESULT.json :: /B1/E_pool/ci_template/ci95; 3 dp",
+  "dc_null_ci_t": "explore/W9b/decomp/RESULT.json :: /B4/null_at_base/ci_template/ci95; 3 dp",
+  "dc_edit_ci_t": "explore/W9b/decomp/RESULT.json :: /B4/edit_component/ci_template/ci95; 3 dp",
+  "dc_resid_ci_t": "explore/W9b/decomp/RESULT.json :: /B4/residual/ci_template/ci95; 3 dp",
+  "dc_delta_solve_ci_t": "explore/W9b/decomp/RESULT.json :: /D/D1/solve/ci_template/ci95; 3 dp",
+  "ex_top_pb": "explore/W9b/decomp/RESULT.json :: /D/D1/solve/per_original[largest delta_edit]/p_b; 2 dp",
+  "ex_top_pg": "explore/W9b/decomp/RESULT.json :: /D/D1/solve/per_original[largest delta_edit]/p_g; 2 dp",
+  "ex_top_pd": "explore/W9b/decomp/RESULT.json :: /D/D1/solve/per_original[largest delta_edit]/p_d; 2 dp",
+  "top3_even_bin": "explore/W9b/ready63rel/out/DRAWS.jsonl :: DRAWS: binary even waves (0, 2, ..., 98) of the three largest delta_edit problems, in that order; frozen tag",
+  "r7_checks": "explore/R7/NUMBER-CHECKS.json :: /checks: count",
+  "r7_match": "explore/R7/NUMBER-CHECKS.json :: /checks: status MATCH",
+  "r7_indep": "explore/R7/NUMBER-CHECKS.json :: /checks: basis independent (draws or formula)"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\decomp\\SHAM-JOINT-RESULT.json": "2fe5c50452fd09b53867118dc7e9b023c52da701a79a7c57f441c9549c70f9b3",
+  "E:\\work\\research-cycle\\explore\\W9b\\decomp\\RESULT.json": "f70423eb7b03d70ac5252fdaee8464705b802cd0a3dc8b3d66127d3bb12ace0f",
+  "E:\\work\\research-cycle\\explore\\R7\\NUMBER-CHECKS.json": "42f40cb14fa6a10b046ea3b8f660c7802f9944d1735718d0454997d3c9df7b20",
+  "E:\\work\\research-cycle\\explore\\W9b\\ready63rel\\out\\DRAWS.jsonl": "e4c66547ecc6ac1aacc9a6921b5611f3e9e183eec7aab6b90e55cf49edaa01b3",
+  "E:\\work\\research-cycle\\explore\\X3\\fresh81_pure.py": "6b9c0e124f4d690c6bd1412aeccfdc8d12b8b20fb2ebe3d0576656c0b59f1e4d"
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "tier": "Exploratory; W9b t041b producer (t041 with the X3-114 primary) (20 Oct evening syntheses: X1 178-187, X3 81/97-V2/106/109/114, W16 125)",
+ "values": {
+  "e178_shared": 0.1486,
+  "e178_shared_ci": [
+   -0.0752,
+   0.3154
+  ],
+  "e178_family": 0.0845,
+  "e178_family_ci": [
+   -0.2616,
+   0.1647
+  ],
+  "e182_gain": -0.02886,
+  "e182_gain_ci": [
+   -0.1557,
+   0.00704
+  ],
+  "e183_gain": -0.0021805,
+  "e183_gain_ci": [
+   -0.0063532,
+   1.08e-05
+  ],
+  "e187_gain": 0.0002876,
+  "e187_gain_ci": [
+   -0.0001691,
+   0.0007544
+  ],
+  "e180_n": 716,
+  "e180_tv": 0.09835,
+  "e180_error": 0.45083,
+  "e180_power": 0.0809,
+  "f81_gpuh": 0.272321,
+  "f81_usable_h": 77.115,
+  "f81_nr_h": 29.377,
+  "f81_records": 408,
+  "f81_originals": 34,
+  "f81all_nr": 8,
+  "f81all_r": 15,
+  "f81all_unusable": 15,
+  "f81all_count": 0.7667,
+  "f81all_pointk": 0.7125,
+  "f97_n": 23,
+  "f97_frozen": -3.7071875300325656,
+  "f97_frozen_noise": -3.8729321732842554,
+  "f97_constant": -2.8432061064422673,
+  "f97_base": 0.5597991160616869,
+  "f97_base_ci": [
+   0.006097677357003807,
+   1.2290823929722974
+  ],
+  "f97_edits": -0.41103632347936525,
+  "f97_edits_ci": [
+   -1.1198912242027559,
+   0.07615579739719643
+  ],
+  "f97_item": -0.011954400339519555,
+  "f97_item_ci": [
+   -0.15541200290227505,
+   0.16334791138850138
+  ],
+  "f97_tok_base": 37298,
+  "f97_tok_all": 108994,
+  "g106_gain": -0.003051462248325365,
+  "g106_gain_ci": [
+   -0.03063891949323927,
+   0.01408263241508662
+  ],
+  "g109_obs": 0.02470240849221562,
+  "g109_ci": [
+   0.01776038436175781,
+   0.032686591755825556
+  ],
+  "g109_n": 917,
+  "g109_fresh_ci": [
+   -0.021126962405830254,
+   0.0710375742311057
+  ],
+  "g114_n": 696,
+  "h125_requests": "1,536",
+  "f81_binary": 21,
+  "f81_r": 13,
+  "f81_nr": 8,
+  "f81_templates": 15,
+  "f81_count": 0.8269230769230769,
+  "f81_pointk": 0.7259615384615384,
+  "f81_gain_ci": [
+   -0.18877834467120186,
+   0.41114583333333315
+  ],
+  "f81_boot": 2000,
+  "f81_gain": 0.10096153846153844,
+  "g114_state": -0.0023,
+  "g114_state_ci": [
+   -0.0072,
+   -0.0001
+  ],
+  "g114_paid": 0.007,
+  "g114_paid_ci": [
+   0.0014,
+   0.0139
+  ]
+ },
+ "raw_pointers": {
+  "e178_shared": "explore/X1/178-state-ability-versus-family-count-forecast.md :: /\\| Length \\+ state, shared probability \\| [\u2212\\-\\d.]+ \\| state increment \\+([\\d.]+) \\| \\[([\u2212\\-\\d.]+), ([\\d.]+)\\] \\|/",
+  "e178_shared_ci": "explore/X1/178-state-ability-versus-family-count-forecast.md :: /\\| Length \\+ state, shared probability \\| [\u2212\\-\\d.]+ \\| state increment \\+([\\d.]+) \\| \\[([\u2212\\-\\d.]+), ([\\d.]+)\\] \\|/",
+  "e178_family": "explore/X1/178-state-ability-versus-family-count-forecast.md :: /\\*\\*primary state increment \\+([\\d.]+)\\*\\* \\| \\*\\*\\[([\u2212\\-\\d.]+), ([\\d.]+)\\]\\*\\*/",
+  "e178_family_ci": "explore/X1/178-state-ability-versus-family-count-forecast.md :: /\\*\\*primary state increment \\+([\\d.]+)\\*\\* \\| \\*\\*\\[([\u2212\\-\\d.]+), ([\\d.]+)\\]\\*\\*/",
+  "e182_gain": "explore/X1/182-state-family-intercepts-and-shrinkage.md :: /state-interaction gain is \\*\\*([\u2212\\-\\d.]+)\\*\\*, full-pipeline interval \\*\\*\\[([\u2212\\-\\d.]+), ([\\d.]+)\\]\\*\\*/",
+  "e182_gain_ci": "explore/X1/182-state-family-intercepts-and-shrinkage.md :: /state-interaction gain is \\*\\*([\u2212\\-\\d.]+)\\*\\*, full-pipeline interval \\*\\*\\[([\u2212\\-\\d.]+), ([\\d.]+)\\]\\*\\*/",
+  "e183_gain": "explore/X1/183-counterfactual-success-lens.md :: /state gain in MSE is \\*\\*([\u2212\\-\\d.]+)\\*\\*, pipeline95% \\*\\*\\[([\u2212\\-\\d.]+), \\+([\\d.]+)\\]\\*\\*/",
+  "e183_gain_ci": "explore/X1/183-counterfactual-success-lens.md :: /state gain in MSE is \\*\\*([\u2212\\-\\d.]+)\\*\\*, pipeline95% \\*\\*\\[([\u2212\\-\\d.]+), \\+([\\d.]+)\\]\\*\\*/",
+  "e187_gain": "explore/X1/187-family-effect-pipeline-uncertainty.md :: /remains \\*\\*\\+([\\d.]+)\\*\\*, but the500-refit whole-pipeline95% interval is \\*\\*\\[([\u2212\\-\\d.]+), ([\\d.]+)\\]\\*\\*/",
+  "e187_gain_ci": "explore/X1/187-family-effect-pipeline-uncertainty.md :: /remains \\*\\*\\+([\\d.]+)\\*\\*, but the500-refit whole-pipeline95% interval is \\*\\*\\[([\u2212\\-\\d.]+), ([\\d.]+)\\]\\*\\*/",
+  "e180_n": "explore/X1/180-finite-response-threshold-indistinguishability.md :: /With (\\d+) originals and four independent draws per arm, even a test observing all the counts has total-variation separation \\*\\*([\\d.]+)\\*\\*, equal-prior optimal world-classification error \\*\\*([\\d.]+)\\*\\*, and most-powerful size-0\\.05 power \\*\\*([\\d.]+)\\*\\*/",
+  "e180_tv": "explore/X1/180-finite-response-threshold-indistinguishability.md :: /With (\\d+) originals and four independent draws per arm, even a test observing all the counts has total-variation separation \\*\\*([\\d.]+)\\*\\*, equal-prior optimal world-classification error \\*\\*([\\d.]+)\\*\\*, and most-powerful size-0\\.05 power \\*\\*([\\d.]+)\\*\\*/",
+  "e180_error": "explore/X1/180-finite-response-threshold-indistinguishability.md :: /With (\\d+) originals and four independent draws per arm, even a test observing all the counts has total-variation separation \\*\\*([\\d.]+)\\*\\*, equal-prior optimal world-classification error \\*\\*([\\d.]+)\\*\\*, and most-powerful size-0\\.05 power \\*\\*([\\d.]+)\\*\\*/",
+  "e180_power": "explore/X1/180-finite-response-threshold-indistinguishability.md :: /With (\\d+) originals and four independent draws per arm, even a test observing all the counts has total-variation separation \\*\\*([\\d.]+)\\*\\*, equal-prior optimal world-classification error \\*\\*([\\d.]+)\\*\\*, and most-powerful size-0\\.05 power \\*\\*([\\d.]+)\\*\\*/",
+  "f81_gpuh": "explore/X3/81-fresh-transfer-ready63-20261020.md :: /Charged block-wall GPUh([\\d.]+), usable/hour([\\d.]+), NR/hour([\\d.]+)/",
+  "f81_usable_h": "explore/X3/81-fresh-transfer-ready63-20261020.md :: /Charged block-wall GPUh([\\d.]+), usable/hour([\\d.]+), NR/hour([\\d.]+)/",
+  "f81_nr_h": "explore/X3/81-fresh-transfer-ready63-20261020.md :: /Charged block-wall GPUh([\\d.]+), usable/hour([\\d.]+), NR/hour([\\d.]+)/",
+  "f81_records": "explore/X3/81-fresh-transfer-ready63-20261020.md :: /All(\\d+) expected records for(\\d+) fresh originals/",
+  "f81_originals": "explore/X3/81-fresh-transfer-ready63-20261020.md :: /All(\\d+) expected records for(\\d+) fresh originals/",
+  "f81all_nr": "explore/X3/81-fresh-transfer-all38-20261020.md :: /Strict classes:\\{'NR': (\\d+), 'R': (\\d+), 'UNUSABLE': (\\d+)\\}/",
+  "f81all_r": "explore/X3/81-fresh-transfer-all38-20261020.md :: /Strict classes:\\{'NR': (\\d+), 'R': (\\d+), 'UNUSABLE': (\\d+)\\}/",
+  "f81all_unusable": "explore/X3/81-fresh-transfer-all38-20261020.md :: /Strict classes:\\{'NR': (\\d+), 'R': (\\d+), 'UNUSABLE': (\\d+)\\}/",
+  "f81all_count": "explore/X3/81-fresh-transfer-all38-20261020.md :: /\\|interaction-A4\\|([\\d.]+)\\|[\\d.]+\\|[\\d.]+\\|\\r?\\n\\|point-K\\|([\\d.]+)\\|/",
+  "f81all_pointk": "explore/X3/81-fresh-transfer-all38-20261020.md :: /\\|interaction-A4\\|([\\d.]+)\\|[\\d.]+\\|[\\d.]+\\|\\r?\\n\\|point-K\\|([\\d.]+)\\|/",
+  "f97_n": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'strict_disjoint': \\{'originals': (\\d+)/",
+  "f97_frozen": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'frozen_full': (-?[\\d.]+(?:e-?\\d+)?), 'frozen_noise': (-?[\\d.]+(?:e-?\\d+)?), 'global_constant': (-?[\\d.]+(?:e-?\\d+)?)/",
+  "f97_frozen_noise": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'frozen_full': (-?[\\d.]+(?:e-?\\d+)?), 'frozen_noise': (-?[\\d.]+(?:e-?\\d+)?), 'global_constant': (-?[\\d.]+(?:e-?\\d+)?)/",
+  "f97_constant": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'frozen_full': (-?[\\d.]+(?:e-?\\d+)?), 'frozen_noise': (-?[\\d.]+(?:e-?\\d+)?), 'global_constant': (-?[\\d.]+(?:e-?\\d+)?)/",
+  "f97_base": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'A2_vs_matched_prior': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "f97_base_ci": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'A2_vs_matched_prior': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "f97_edits": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'allA6_vs_A2': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "f97_edits_ci": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'allA6_vs_A2': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "f97_item": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'individual_vs_global_after_A2': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "f97_item_ci": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'individual_vs_global_after_A2': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "f97_tok_base": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'paid_feature_output_tokens': \\{'A_base2': (\\d+), 'A_all6': (\\d+)\\}/",
+  "f97_tok_all": "explore/X3/97-V2-fresh-disjoint-paid-assay-20261020.md within ['strict_disjoint' .. 'operational38') :: /'paid_feature_output_tokens': \\{'A_base2': (\\d+), 'A_all6': (\\d+)\\}/",
+  "g106_gain": "explore/X3/106-nested-regularization-count-transport-20261020.md :: /'LOSO8-source': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'pipeline_bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "g106_gain_ci": "explore/X3/106-nested-regularization-count-transport-20261020.md :: /'LOSO8-source': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?), 'pipeline_bootstrap95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "g109_obs": "explore/X3/109-global-family-adjusted-repeatability-20261020.md within ['old917_numeric' .. 'fresh23_numeric') :: /'global_adjusted': \\{'crossproduct': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?)[^}]*?'pipeline95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "g109_ci": "explore/X3/109-global-family-adjusted-repeatability-20261020.md within ['old917_numeric' .. 'fresh23_numeric') :: /'global_adjusted': \\{'crossproduct': \\{'observed': (-?[\\d.]+(?:e-?\\d+)?)[^}]*?'pipeline95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "g109_n": "explore/X3/109-global-family-adjusted-repeatability-20261020.md :: /'old917_numeric': \\{'originals': (\\d+)/",
+  "g109_fresh_ci": "explore/X3/109-V2-fresh-bootstrap-correction-20261020.md within ['fresh23_numeric' .. 'fresh38_operational') :: /'crossproduct': \\{'percentile95': \\[(-?[\\d.]+(?:e-?\\d+)?), (-?[\\d.]+(?:e-?\\d+)?)\\]/",
+  "g114_n": "explore/X3/114-bounded-probe-and-pipeline-stability-20261020.md :: /'originals': (\\d+), 'statistics'/",
+  "h125_requests": "explore/W16-round-20261020-1530/125-repeat-assay-forecast-ceilings/125-RESULT.md :: /match across all ([\\d,]+) requests/",
+  "f81_binary": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/binary",
+  "f81_r": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/R",
+  "f81_nr": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/NR",
+  "f81_templates": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/templates",
+  "f81_count": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/metrics/interaction-A4/AUC",
+  "f81_pointk": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/metrics/point-K/AUC",
+  "f81_gain_ci": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/bootstrap/original/interval95/interaction-A4/AUCgain",
+  "f81_boot": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/bootstrap/original/completed",
+  "f81_gain": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/metrics/interaction-A4/AUC minus metrics/point-K/AUC",
+  "g114_state": "explore/X3/evening-20261020/114/RESULT.json :: /statistics/PRIMARY_global_centered_NR/state/projected_gain, 4 dp",
+  "g114_state_ci": "explore/X3/evening-20261020/114/RESULT.json :: /statistics/PRIMARY_global_centered_NR/state/projected_pipeline95, 4 dp",
+  "g114_paid": "explore/X3/evening-20261020/114/RESULT.json :: /statistics/PRIMARY_global_centered_NR/paid_residual/projected_gain, 4 dp",
+  "g114_paid_ci": "explore/X3/evening-20261020/114/RESULT.json :: /statistics/PRIMARY_global_centered_NR/paid_residual/projected_pipeline95, 4 dp"
+ },
+ "checks": {
+  "rule": "each regex matched exactly once in its region of a sha-pinned report file; X3-81 primary from RESULT.json; values as printed"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\X1\\178-state-ability-versus-family-count-forecast.md": "b9cf09864531c42cc415cccb26e91fc8d2b45eeed9b2b0fd0509ae19519a25d5",
+  "E:\\work\\research-cycle\\explore\\X1\\182-state-family-intercepts-and-shrinkage.md": "85163ea2092f25e91425cd1448a10feda3ba891b0a90f4fc63e40beff2af8442",
+  "E:\\work\\research-cycle\\explore\\X1\\183-counterfactual-success-lens.md": "9b6e13c21d2b2f5e57edbcaed9dcd2b118bdb7fbc829bc53ab9c54df0a943db4",
+  "E:\\work\\research-cycle\\explore\\X1\\187-family-effect-pipeline-uncertainty.md": "019eb8b37a849af7336c82cb9d75e9ddfcee18ea7601258013cfc4d940e0576f",
+  "E:\\work\\research-cycle\\explore\\X1\\180-finite-response-threshold-indistinguishability.md": "87b018a7eb28ab9b04173a02ea910028eb1ef031ba09a73cea86e9d33605ceeb",
+  "E:\\work\\research-cycle\\explore\\X3\\81-fresh-transfer-ready63-20261020.md": "e8ebec781a54bff01544e1d49d39b7ad98be8002a48b4779e614895c1ecfcfde",
+  "E:\\work\\research-cycle\\explore\\X3\\81-fresh-transfer-all38-20261020.md": "0075a2776a198d4c6f455cb0471a4bab230864939e8e8d135109db6cb1b68828",
+  "E:\\work\\research-cycle\\explore\\X3\\97-V2-fresh-disjoint-paid-assay-20261020.md": "113572158786458e8a427644072a6b53cb702983410c46ffd8b4e4ea26f02b3b",
+  "E:\\work\\research-cycle\\explore\\X3\\106-nested-regularization-count-transport-20261020.md": "0a174d08704d23e9ac1e4dfcf1b001f73ef32236a766c468d14fe3bbed519ac8",
+  "E:\\work\\research-cycle\\explore\\X3\\109-global-family-adjusted-repeatability-20261020.md": "66d65e71822f274ac035640bbed9be7612fc9dc339f55c24eb908a3e579a2912",
+  "E:\\work\\research-cycle\\explore\\X3\\109-V2-fresh-bootstrap-correction-20261020.md": "7a2e2071f5bed4da1a6bff449ed765647163fbc2860b2c4c594b64ce1c89656c",
+  "E:\\work\\research-cycle\\explore\\X3\\114-bounded-probe-and-pipeline-stability-20261020.md": "cee90baf453706949266344a7def24433d0397e5637abadbd5faa6dbb27018a9",
+  "E:\\work\\research-cycle\\explore\\W16-round-20261020-1530\\125-repeat-assay-forecast-ceilings\\125-RESULT.md": "3202d30d3965716d5623df6887968d0febf5d041c06b879618b24b825f6ae97c",
+  "E:\\work\\research-cycle\\explore\\X3\\evening-20261020\\81-ready63\\RESULT.json": "6d1827772332e11a64d836edafc42e6a3ad02df65118d1aa15f8418fe54a3256",
+  "E:\\work\\research-cycle\\explore\\X3\\evening-20261020\\114\\RESULT.json": "7e2b4c4c577aa79b8180d2b5254de5d91e752e1bfe892d4ca5684fb0ef0d9e8c"
+ },
+ "producer_sha256": "356f9060c811140dd351424c6a28e7bc6de81a222d6fcce3b126958754e07268"
+}

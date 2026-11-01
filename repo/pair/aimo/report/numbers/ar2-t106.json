@@ -1,0 +1,95 @@
+{
+ "tier": "SHAM Phase 1 post hoc analyses (a)-(c) requested by the second referee; [E-post], run after the BR2 blind replay matched. AR2 t106 producer for report v1.3.",
+ "values": {
+  "ph_a_num": 0.0311,
+  "ph_a_num_ci": [
+   0.0214,
+   0.0418
+  ],
+  "ph_a_acc": 0.0208,
+  "ph_a_acc_ci": [
+   0.0141,
+   0.0278
+  ],
+  "ph_a_num_share": 0.6,
+  "ph_a_dnum": 0.0329,
+  "ph_a_dnum_ci": [
+   0.0217,
+   0.0452
+  ],
+  "ph_b_t4bc": 0.0101,
+  "ph_b_t4bc_ci": [
+   -0.0078,
+   0.0286
+  ],
+  "ph_b_t4bc_n": 223,
+  "ph_b_cal2_ceil": 0.031,
+  "ph_b_cal2_ceil_tests": 357,
+  "ph_c_kappa_real": 0.309,
+  "ph_c_kappa_real_ci": [
+   0.23,
+   0.38
+  ],
+  "ph_c_kappa_real_n": 238,
+  "ph_c_kappa_sham": 0.273,
+  "ph_c_kappa_sham_ci": [
+   0.19,
+   0.34
+  ],
+  "ph_c_kappa_sham_n": 259,
+  "ph_c_sb_solve": 0.86,
+  "ph_c_sb_solve_ci": [
+   0.79,
+   0.9
+  ],
+  "ph_c_sb_solve_n": 320,
+  "ph_c_sb_frag": 0.83,
+  "ph_c_sb_frag_ci": [
+   0.77,
+   0.88
+  ],
+  "ph_c_sb_frag_n": 205,
+  "ph_c_sb_frag_sham": 0.77,
+  "ph_c_sb_frag_sham_ci": [
+   0.7,
+   0.84
+  ],
+  "ph_c_sb_frag_sham_n": 234
+ },
+ "raw_pointers": {
+  "ph_a_num": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: mean (n_S - n_R)(a_S + a_R)/2; 4 dp",
+  "ph_a_num_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000; 4 dp",
+  "ph_a_acc": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: mean (a_S - a_R)(n_S + n_R)/2; 4 dp",
+  "ph_a_acc_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000; 4 dp",
+  "ph_a_num_share": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: numeric-rate part / PRIMARY est; 2 dp",
+  "ph_a_dnum": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: mean n_S - n_R (numeric-answer rate, copies minus rewrites); 4 dp",
+  "ph_a_dnum_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap; 4 dp",
+  "ph_b_t4bc": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: mean nr_sham_own - bias-corrected N0 (decomp.corrected, R=2000), T2 problems; 4 dp",
+  "ph_b_t4bc_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap; 4 dp",
+  "ph_b_t4bc_n": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: T4 problems",
+  "ph_b_cal2_ceil": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: CAL2 share |z|>1.96, problems with p_base >= 0.9; 3 dp",
+  "ph_b_cal2_ceil_tests": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: CAL2 tests with nonzero SE, p_base >= 0.9",
+  "ph_c_kappa_real": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: Fleiss kappa NR/R over 12 waves, real label, >= 2 binary waves; 3 dp",
+  "ph_c_kappa_real_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000 (0 undefined); 2 dp",
+  "ph_c_kappa_real_n": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problems with >= 2 binary waves, real label",
+  "ph_c_kappa_sham": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: Fleiss kappa NR/R over 12 waves, sham label, >= 2 binary waves; 3 dp",
+  "ph_c_kappa_sham_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000 (0 undefined); 2 dp",
+  "ph_c_kappa_sham_n": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problems with >= 2 binary waves, sham label",
+  "ph_c_sb_solve": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: Spearman-Brown of even/odd-wave Pearson r (0.7510); 2 dp",
+  "ph_c_sb_solve_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000; 2 dp",
+  "ph_c_sb_solve_n": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problems",
+  "ph_c_sb_frag": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: Spearman-Brown of even/odd-wave Pearson r (0.7100); 2 dp",
+  "ph_c_sb_frag_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000; 2 dp",
+  "ph_c_sb_frag_n": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problems",
+  "ph_c_sb_frag_sham": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: Spearman-Brown of even/odd-wave Pearson r (0.6312); 2 dp",
+  "ph_c_sb_frag_sham_ci": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problem bootstrap B=2000; 2 dp",
+  "ph_c_sb_frag_sham_n": "post hoc on from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl via frozen score_phase1.analyse rows :: problems"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\sham1-score\\tree\\explore\\W9b\\sham1\\v1.1\\out\\RESULT.json": "23db1055b0180e0c3d61864eb22756a0dd38f57de2bfdb03307f9941d4bf8e18",
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\sham1-score\\tree\\explore\\W9b\\sham1\\v1.1\\out\\DRAWS.jsonl": "86e0aca09bcca52f737b48cc28961808f92cb14e002fba91afe1033c77e5804e",
+  "E:\\work\\research-cycle\\explore\\W9b\\sham1\\v1.1\\score_phase1.py": "a430019242757aae788ced32795cf944536ef2e4f3c5dd5cedac293c97e5370c",
+  "E:\\work\\research-cycle\\explore\\W9b\\decomp\\decomp.py": "a37aebe72f582fd24ff9353ea273ed05abe70cf2ab6f5b1efff0a9bf85bb6929",
+  "E:\\work\\research-cycle\\explore\\X3\\fresh81_pure.py": "6b9c0e124f4d690c6bd1412aeccfdc8d12b8b20fb2ebe3d0576656c0b59f1e4d"
+ }
+}

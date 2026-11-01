@@ -1,0 +1,6 @@
+# Python 3.12. Versions used for the recorded reproduction (repro/EXPECTED-OUTPUT.txt), 30 Oct 2026.
+# The frozen scorer originally ran with numpy 2.3.5 and scipy 1.18.1 (Python 3.12.3) and gave the same values.
+# Figure 1's PNG bytes match the report only with matplotlib 3.11.2.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2

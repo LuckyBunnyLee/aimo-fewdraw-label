@@ -1,0 +1,166 @@
+{
+  "scope": "EXPLORATORY frozen feature holdout; not sealed TEST or a paper confirmation",
+  "evaluation_count": 1,
+  "n": 113,
+  "NR": 81,
+  "R": 32,
+  "raw_score": "mean(full_vocab_entropy[32:56])-mean(full_vocab_entropy[0:32])",
+  "seed": 1945,
+  "sign": "higher NR",
+  "metrics": {
+    "frozen_entropy_change": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.5806327160493827,
+      "ci95": [
+        0.46064160628019324,
+        0.6977402312599681
+      ],
+      "delta_saved_length": -0.11419753086419748,
+      "delta_saved_length_ci95": [
+        -0.2512825763216679,
+        0.02123487589480229
+      ],
+      "delta_saved_text": -0.07870370370370372,
+      "delta_saved_text_ci95": [
+        -0.24704224460868682,
+        0.0730904332736229
+      ]
+    },
+    "saved_length_OOF": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.6948302469135802,
+      "ci95": [
+        0.5924235391045736,
+        0.7900178029488374
+      ],
+      "delta_saved_length": 0.0,
+      "delta_saved_length_ci95": [
+        0.0,
+        0.0
+      ],
+      "delta_saved_text": 0.03549382716049376,
+      "delta_saved_text_ci95": [
+        -0.08296556640492785,
+        0.1462284301346801
+      ]
+    },
+    "saved_text_OOF": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.6593364197530864,
+      "ci95": [
+        0.548598484848485,
+        0.7615782828282828
+      ],
+      "delta_saved_length": -0.03549382716049376,
+      "delta_saved_length_ci95": [
+        -0.14622843013468015,
+        0.08296556640492779
+      ],
+      "delta_saved_text": 0.0,
+      "delta_saved_text_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "declared_negative_mean_logprob56": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.33526234567901236,
+      "ci95": [
+        0.22942632080563116,
+        0.4457208725420017
+      ],
+      "delta_saved_length": -0.35956790123456783,
+      "delta_saved_length_ci95": [
+        -0.5052192688175562,
+        -0.20278754770635346
+      ],
+      "delta_saved_text": -0.32407407407407407,
+      "delta_saved_text_ci95": [
+        -0.4887902751841354,
+        -0.14778185176892067
+      ]
+    },
+    "declared_mean_entropy56": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.35725308641975306,
+      "ci95": [
+        0.23444056633759106,
+        0.4879493334507869
+      ],
+      "delta_saved_length": -0.33757716049382713,
+      "delta_saved_length_ci95": [
+        -0.4935646645021645,
+        -0.1692459810010962
+      ],
+      "delta_saved_text": -0.30208333333333337,
+      "delta_saved_text_ci95": [
+        -0.480287670964455,
+        -0.10975546634348335
+      ]
+    },
+    "frozen_combined_length": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.7276234567901234,
+      "ci95": [
+        0.633329831932773,
+        0.8152788230554034
+      ],
+      "delta_saved_length": 0.03279320987654322,
+      "delta_saved_length_ci95": [
+        -0.00281744225108067,
+        0.08000044208664894
+      ],
+      "delta_saved_text": 0.06828703703703698,
+      "delta_saved_text_ci95": [
+        -0.057271428199701685,
+        0.18701104873919625
+      ]
+    },
+    "frozen_length_entropy_change": {
+      "n": 113,
+      "NR": 81,
+      "R": 32,
+      "auc": 0.6786265432098766,
+      "ci95": [
+        0.5721807181675602,
+        0.7811469256656254
+      ],
+      "delta_saved_length": -0.01620370370370361,
+      "delta_saved_length_ci95": [
+        -0.11250983477576704,
+        0.08299615721490701
+      ],
+      "delta_saved_text": 0.019290123456790154,
+      "delta_saved_text_ci95": [
+        -0.12520537525354963,
+        0.156051948051948
+      ]
+    }
+  },
+  "frozen_learned_pair_increment": {
+    "delta_auc": -0.048996913580246826,
+    "ci95": [
+      -0.1425505684562118,
+      0.033182870370370335
+    ]
+  },
+  "method": "No training/CV/sign/window/seed/threshold changes. Exact existing137OOF reference scores restricted to113. 2000original-problem percentile bootstraps, seed1945; paired same resamples.",
+  "caveats": [
+    "Labels were public and previously analysed; only these prefix trajectories were unobserved when frozen.",
+    "Prefix model Qwen3.5-4B native thinking differs from organiser qwen3-8b:low label model/effort.",
+    "Length reference is saved OOF on137 restricted to113; frozen combined models were trained only on24 discovery problems.",
+    "Intervals condition on existing scores/models and fixed noisy labels; no historical-search adjustment."
+  ]
+}

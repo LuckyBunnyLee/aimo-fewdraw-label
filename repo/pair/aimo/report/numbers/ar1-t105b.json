@@ -1,0 +1,14 @@
+{
+ "tier": "Leaderboard simulation (AM1 board_noise.json), stored values; AR1 t105b producer for report v1.2d.",
+ "values": {
+  "lb_perfect_060_10": 0.74,
+  "lb_perfect_070_10": 6.25
+ },
+ "raw_pointers": {
+  "lb_perfect_060_10": "explore/AM1-aimo/out/board_noise.json :: /expected_teams_at_100pct_of_95/p0.6_m10; 2 dp",
+  "lb_perfect_070_10": "explore/AM1-aimo/out/board_noise.json :: /expected_teams_at_100pct_of_95/p0.7_m10; 2 dp"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\AM1-aimo\\out\\board_noise.json": "b699940ceddf7ed8800f30d98467621e3e24ee4760b0296d9adb37cc6f4a176a"
+ }
+}

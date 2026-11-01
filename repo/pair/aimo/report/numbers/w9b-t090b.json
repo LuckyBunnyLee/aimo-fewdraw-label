@@ -1,0 +1,16 @@
+{
+ "tier": "Exploratory; counts of a referee check ledger; W9b t090b producer for report v0.9.",
+ "values": {
+  "r8_checks": 44,
+  "r8_match": 44,
+  "r8_indep": 39
+ },
+ "raw_pointers": {
+  "r8_checks": "explore/R8/NUMBER-CHECKS.json :: /checks: count",
+  "r8_match": "explore/R8/NUMBER-CHECKS.json :: /checks: status MATCH",
+  "r8_indep": "explore/R8/NUMBER-CHECKS.json :: /checks: basis \"independent draw/formula recomputation\""
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\R8\\NUMBER-CHECKS.json": "bc4a8cde77a86769c9aceeccb1b4175c5a5a2dfdd7ef84a808fc099675ec1673"
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "no_more_generation": true,
+  "exit": {
+    "abandoned_wave": null,
+    "admitted": 76800,
+    "charged_seconds": 60881.10874891281,
+    "charged_tokens": 80053900,
+    "complete": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "elapsed": 60881.10874891281,
+    "engine_error": null,
+    "new_tokens": 80053900,
+    "reason": "complete",
+    "scope": "EXPLORATORY_ONLY",
+    "terminal": 76800,
+    "token_bound": 80053900
+  },
+  "freeze_sha256": "cf704ca303b4791351426d97f9be715e7a475644be557e1498e1f11794a94b5b",
+  "exact_pid284_gone_confirmed": true,
+  "outputs": "box WSL /root/cl3-sham1-v11-run-3090/block-1792981720339346636",
+  "scoring": "W9d score-once BX routing released;independent replay required;no CL scoring",
+  "at": "2026-10-26T15:53:15.762387-07:00"
+}

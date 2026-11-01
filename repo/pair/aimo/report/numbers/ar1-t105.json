@@ -1,0 +1,30 @@
+{
+ "tier": "RANDOM100 r5: outcome-free design and run facts only (no score read); leaderboard: constructed. AR1 t105 producer for report v1.2.",
+ "values": {
+  "r100_n": 100,
+  "r100_pool": 2474,
+  "r100_waves_done": 23,
+  "r100_waves_planned": 25,
+  "r100_records": 27600,
+  "r100_stop": "gpu hour cap at boundary",
+  "lb_range70_n100": [
+   0.61,
+   0.79
+  ]
+ },
+ "raw_pointers": {
+  "r100_n": "from-box/research/W9d/random100-freeze-r5/pack/COHORT.json :: len(/selected)",
+  "r100_pool": "from-box/research/W9d/random100-freeze-r5/pack/COHORT.json :: /pool_size",
+  "r100_waves_done": "planning/gpu-ops/RANDOM100-FINAL-FOR-SCORING-CL4-20261027.json :: /complete_waves",
+  "r100_waves_planned": "planning/gpu-ops/RANDOM100-FINAL-FOR-SCORING-CL4-20261027.json :: /planned_waves",
+  "r100_records": "planning/gpu-ops/RANDOM100-FINAL-FOR-SCORING-CL4-20261027.json :: sum /record_counts",
+  "r100_stop": "planning/gpu-ops/RANDOM100-FINAL-FOR-SCORING-CL4-20261027.json :: /reason (underscores as spaces)",
+  "lb_range70_n100": "constructed: exact Binomial(100, 0.7) 2.5% and 97.5% quantiles / 100; 2 dp"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\random100-freeze-r5\\pack\\COHORT.json": "7d59ad30d1b64550fd7b97fcc3190171e5c9bba0bef8e558dd22e7c17edf4cf5",
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\random100-freeze-r5\\pack\\FREEZE.sha256": "28d7b0cf58c9c6f3c387a472d1ba729b9ec6867f66714ae8a6cd82428a2e8aff",
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\random100-freeze-r5\\pack\\SPEC-v2-20261026.md": "c71f9fa379572075a1cbaa4b963a493db8aceb299d45264a4b50103ac14714c9",
+  "E:\\work\\research-cycle\\planning\\gpu-ops\\RANDOM100-FINAL-FOR-SCORING-CL4-20261027.json": "50827b88984b06301fc5d42f071fd5da60394f065643961ec2c10662c4ef4061"
+ }
+}

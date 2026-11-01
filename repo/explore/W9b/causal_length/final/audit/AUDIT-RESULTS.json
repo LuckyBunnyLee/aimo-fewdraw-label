@@ -1,0 +1,28 @@
+{
+ "flagged": [
+  "deepmathgap-dmgap_001397",
+  "deepmathgap-dmgap_003198",
+  "deepmathgap-dmgap_007163",
+  "deepmathgap-dmgap_013516",
+  "deepmathgap-dmgap_020328",
+  "deepmathgap-dmgap_028085",
+  "deepmathgap-dmgap_033702",
+  "deepmathgap-dmgap_040471",
+  "deepmathgap-dmgap_041870",
+  "deepmathgap-dmgap_042171",
+  "deepmathgap-dmgap_043820",
+  "deepmathgap-dmgap_048835",
+  "deepmathgap-dmgap_062701",
+  "deepmathgap-dmgap_063975",
+  "deepmathgap-dmgap_072911",
+  "deepmathgap-dmgap_075293",
+  "deepmathgap-dmgap_078554"
+ ],
+ "readers": [
+  "W9b reader 1 (READER1.json)",
+  "blind second reader (READER2.json)"
+ ],
+ "union_rule": "flagged by either reader",
+ "comp_flagged": 16,
+ "para_flagged": 2
+}

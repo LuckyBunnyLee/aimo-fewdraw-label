@@ -1,0 +1,15 @@
+{
+ "tier": "Exploratory; stored values, no new computation; W9b t090 producer for report v0.9.",
+ "values": {
+  "dc_E_base_plug": 0.079,
+  "sh_n0_ref": 0.268
+ },
+ "raw_pointers": {
+  "dc_E_base_plug": "explore/W9b/decomp/RESULT.json :: /B1/plug_in/E_base; 3 dp",
+  "sh_n0_ref": "explore/W9b/decomp/SHAM-PHASE0-RESULT.json :: /mean_N0 (plug-in N0 at all-wave numeric base accuracy); 3 dp"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\decomp\\RESULT.json": "f70423eb7b03d70ac5252fdaee8464705b802cd0a3dc8b3d66127d3bb12ace0f",
+  "E:\\work\\research-cycle\\explore\\W9b\\decomp\\SHAM-PHASE0-RESULT.json": "7cbdc2f0c899ea72ad40e5726c6f8dde1d627f00e4e027572feeece3b92d7b91"
+ }
+}

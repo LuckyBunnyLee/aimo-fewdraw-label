@@ -1,0 +1,69 @@
+{
+ "tier": "Exploratory, post hoc; M1h t002 producer (cold-read checks for report draft v0.2). Written after all outcomes were read.",
+ "values": {
+  "rel_kappa_ci": [
+   0.07,
+   0.19
+  ],
+  "f6h_sel_binary_share": 50.7,
+  "f6h_sel_auc_words": 0.533,
+  "f6h_sel_auc_words_ci": [
+   0.51,
+   0.554
+  ],
+  "f6h_sel_share_t1": 52.5,
+  "f6h_sel_share_t2": 53.1,
+  "f6h_sel_share_t3": 46.5,
+  "f6h_sel_ipw_p1": -0.038,
+  "f6h_sel_ipw_p1_ci": [
+   -0.079,
+   0.003
+  ],
+  "mde_pfx": 0.195,
+  "mde_val_p": 0.087,
+  "mde_x170": 0.204,
+  "mde_f81": 0.429,
+  "mde_rel": 0.136,
+  "mde_f6h_p1": 0.061,
+  "mde_f6h_p2": 0.071,
+  "a4_text_features": 23,
+  "a4_source_cats": 8
+ },
+ "raw_pointers": {
+  "rel_kappa_ci": "explore/W9b/ready63rel/out/RESULT.json :: percentile bootstrap over the 32 originals in /S4/per_original with >=2 binary waves, B=2000, seed 20261022; 2 dp",
+  "f6h_sel_binary_share": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: binary / reached under /primary/strict, percent, 1 dp",
+  "f6h_sel_auc_words": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: AUC of word count (PREDICTIONS-BEFORE-RECORDS /rows/*/words) for NOT getting a binary tag, over reached originals; 3 dp",
+  "f6h_sel_auc_words_ci": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: percentile bootstrap over reached originals, B=2000, seed 20261022; 3 dp",
+  "f6h_sel_share_t1": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: binary share in word-count third 1 of reached originals (sorted by words, then pid), percent, 1 dp",
+  "f6h_sel_share_t2": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: binary share in word-count third 2 of reached originals (sorted by words, then pid), percent, 1 dp",
+  "f6h_sel_share_t3": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: binary share in word-count third 3 of reached originals (sorted by words, then pid), percent, 1 dp",
+  "f6h_sel_ipw_p1": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl + explore/W9b/fresh6h/PREDICTIONS-BEFORE-RECORDS.json :: A4 minus word-count AUC on binary originals, weighted by 1/(binary share of word-count decile among reached); 3 dp",
+  "f6h_sel_ipw_p1_ci": "explore/W9b/fresh6h/out/PER-ORIGINAL.jsonl :: percentile bootstrap over binary originals with the decile weights held fixed, B=2000, seed 20261022; 3 dp",
+  "mde_pfx": "explore/X1/prefix113_once/run-1792449357639288400/results.json :: /metrics/frozen_entropy_change/delta_saved_length_ci95; MDE at two-sided level 0.050, 80% power, normal approximation from interval width; 3 dp",
+  "mde_val_p": "pair/aimo/paper/numbers/w9b-t039.json :: /values/val_p_gain_ci (from explore/X1/amended0055 bootstraps); MDE at two-sided level 0.050, 80% power, normal approximation from interval width; 3 dp",
+  "mde_x170": "pair/aimo/paper/numbers/w9b-t040.json :: /values/x170_gain_ci (from explore/X1/170 result text); MDE at two-sided level 0.050, 80% power, normal approximation from interval width; 3 dp",
+  "mde_f81": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/bootstrap/original/interval95/interaction-A4/AUCgain; MDE at two-sided level 0.050, 80% power, normal approximation from interval width; 3 dp",
+  "mde_rel": "explore/W9b/ready63rel/out/RESULT.json :: /primary/original_bootstrap/ci95; MDE at two-sided level 0.050, 80% power, normal approximation from interval width; 3 dp",
+  "mde_f6h_p1": "explore/W9b/fresh6h/out/RESULT.json :: /primary/strict/P1_A4_minus_length/ci975; MDE at two-sided level 0.025, 80% power, normal approximation from interval width; 3 dp",
+  "mde_f6h_p2": "explore/W9b/fresh6h/out/RESULT.json :: /primary/strict/P2_A4_minus_baseagree/ci975; MDE at two-sided level 0.025, 80% power, normal approximation from interval width; 3 dp",
+  "a4_text_features": "explore/X3/afternoon-20261020/56/MODEL-PARAMETERS-FROZEN.json :: /interaction-A4/feature_mean length minus FREEZE /training_source_categories length",
+  "a4_source_cats": "explore/X3/afternoon-20261020/56/FREEZE.json :: /training_source_categories length (set to zero at prediction)"
+ },
+ "checks": [
+  "kappa point estimate equals the stored RESULT value",
+  "unweighted fresh6h P1 equals the stored RESULT value"
+ ],
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\ready63rel\\out\\RESULT.json": "98ebc88e7d7ce4d5aca91916fe4dfa8fa28d12c6f7a54fb21ae0403c1d31ac25",
+  "E:\\work\\research-cycle\\explore\\W9b\\fresh6h\\PREDICTIONS-BEFORE-RECORDS.json": "d8c8549f45d1e8491594a0c0e658de60f862a53af073f7cdfa474ecc7b3e95d1",
+  "E:\\work\\research-cycle\\explore\\W9b\\fresh6h\\out\\PER-ORIGINAL.jsonl": "0e6a6657b948e78a088bd83d6fc5174ee4f4c239b3e6e110dd54358cd52ed49e",
+  "E:\\work\\research-cycle\\explore\\W9b\\fresh6h\\out\\RESULT.json": "e30d33c6ec7daccfdd0a12f6e67b249cefda692cbec9bb9ef5c6267a2309ed9c",
+  "E:\\work\\research-cycle\\explore\\X1\\prefix113_once\\run-1792449357639288400\\results.json": "00762e2fac7b12f04f94552fb54398a8cde7016ee898b2a4bfecc51a7524ea31",
+  "E:\\work\\research-cycle\\pair\\aimo\\paper\\numbers\\w9b-t039.json": "c79d4ac49e6d698ff9639fab2e606f4bc7f29eb3f8150c5a5c611beb4cf315c5",
+  "E:\\work\\research-cycle\\pair\\aimo\\paper\\numbers\\w9b-t040.json": "12115118fd1efa959e79408d9b51233a8afebb1c21a3393e4c0f57ac944872a8",
+  "E:\\work\\research-cycle\\explore\\X3\\evening-20261020\\81-ready63\\RESULT.json": "6d1827772332e11a64d836edafc42e6a3ad02df65118d1aa15f8418fe54a3256",
+  "E:\\work\\research-cycle\\explore\\X3\\afternoon-20261020\\56\\MODEL-PARAMETERS-FROZEN.json": "7360901b7d38a95c4d0eddc9d134465f476a795613925a30ebbeb85bd1194d7e",
+  "E:\\work\\research-cycle\\explore\\X3\\afternoon-20261020\\56\\FREEZE.json": "ec02fdaaf217a7ea8f36398cd37bd94cc2fbc8ec4e3e91e2a3bc9a1cdeb11445"
+ },
+ "producer_sha256": "8368a406c8a2263e80070b262c37374bd582fe1e59ffafdeb49f3d0fb2788f9f"
+}

@@ -1,0 +1,68 @@
+{
+ "tier": "RANDOM100 r5 frozen score-once (BX2), blind replay BR3 matched (lead-verified 27 Oct). No contemporaneous sham; never pooled with SHAM. AR2 t107 producer for report v1.3.",
+ "values": {
+  "r100_primary": 0.0457,
+  "r100_primary_ci": [
+   0.025,
+   0.0676
+  ],
+  "r100_reading": "solve loss",
+  "r100_elig": 73,
+  "r100_elig_loss": 0.0392,
+  "r100_elig_loss_ci": [
+   0.0222,
+   0.0612
+  ],
+  "r100_inelig_loss": 0.0634,
+  "r100_inelig_loss_ci": [
+   0.0103,
+   0.1182
+  ],
+  "r100_kappa": 0.261,
+  "r100_kappa_ci": [
+   0.07,
+   0.43
+  ],
+  "r100_half": -0.0047,
+  "r100_half_ci": [
+   -0.0177,
+   0.0086
+  ],
+  "r100_tag_r": 1008,
+  "r100_tag_nr": 203,
+  "r100_tag_floor": 3,
+  "r100_tag_unus": 1086,
+  "r100_tag_total": 2300,
+  "r100_abst_base": 367,
+  "r100_abst_gs": 825,
+  "r100_abst_dlm": 556
+ },
+ "raw_pointers": {
+  "r100_primary": "from-box/research/AM1/random100-score/out/RESULT.json :: /primary/est (base minus mean rewrite, all answers); 4 dp",
+  "r100_primary_ci": "from-box/research/AM1/random100-score/out/RESULT.json :: /primary/ci95; 4 dp",
+  "r100_reading": "from-box/research/AM1/random100-score/out/RESULT.json :: /reading",
+  "r100_elig": "from-box/research/AM1/random100-score/out/RESULT.json :: /reliability/eligible (>= 5 binary waves)",
+  "r100_elig_loss": "from-box/research/AM1/random100-score/out/RESULT.json :: /by_eligibility/True/est; 4 dp",
+  "r100_elig_loss_ci": "from-box/research/AM1/random100-score/out/RESULT.json :: /by_eligibility/True/ci95; 4 dp",
+  "r100_inelig_loss": "from-box/research/AM1/random100-score/out/RESULT.json :: /by_eligibility/False/est; 4 dp",
+  "r100_inelig_loss_ci": "from-box/research/AM1/random100-score/out/RESULT.json :: /by_eligibility/False/ci95; 4 dp",
+  "r100_kappa": "from-box/research/AM1/random100-score/out/RESULT.json :: /reliability/est (Fleiss kappa, eligible problems); 3 dp",
+  "r100_kappa_ci": "from-box/research/AM1/random100-score/out/RESULT.json :: /reliability/ci95; 2 dp",
+  "r100_half": "from-box/research/AM1/random100-score/out/RESULT.json :: /half_change/est (second-half minus first-half loss); 4 dp",
+  "r100_half_ci": "from-box/research/AM1/random100-score/out/RESULT.json :: /half_change/ci95; 4 dp",
+  "r100_tag_r": "from-box/research/AM1/random100-score/out/RESULT.json :: sum over /per_original/*/tags/R",
+  "r100_tag_nr": "from-box/research/AM1/random100-score/out/RESULT.json :: sum over /per_original/*/tags/NR",
+  "r100_tag_floor": "from-box/research/AM1/random100-score/out/RESULT.json :: sum over /per_original/*/tags/FLOOR",
+  "r100_tag_unus": "from-box/research/AM1/random100-score/out/RESULT.json :: sum over /per_original/*/tags/UNUSABLE",
+  "r100_tag_total": "from-box/research/AM1/random100-score/out/RESULT.json :: sum over /per_original/*/tags (original-waves)",
+  "r100_abst_base": "from-box/research/AM1/random100-score/out/RESULT.json :: /status/base/abstain",
+  "r100_abst_gs": "from-box/research/AM1/random100-score/out/RESULT.json :: /status/surface_gs/abstain",
+  "r100_abst_dlm": "from-box/research/AM1/random100-score/out/RESULT.json :: /status/surface_dlm/abstain"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\from-box\\research\\AM1\\random100-score\\out\\RESULT.json": "bd57198417c227b926f05a513ee62f460443aacf9831d67de7eddec755915292",
+  "E:\\work\\research-cycle\\from-box\\research\\AM1\\random100-score\\DONE.json": "2cda498d2fb2c941b867bc2ecb0ecfb4d2d0ba92f606be01363d6432b180a136",
+  "E:\\work\\research-cycle\\from-box\\research\\AM1\\random100-score\\SCORE-COMPLETION.json": "5f52233bbd71fe570d0fcef9ed947af1e04d10442e9e60ea42ed3a712fbdcce0",
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\random100-freeze-r5\\pack\\FREEZE.sha256": "28d7b0cf58c9c6f3c387a472d1ba729b9ec6867f66714ae8a6cd82428a2e8aff"
+ }
+}

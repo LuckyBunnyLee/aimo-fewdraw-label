@@ -1,0 +1,148 @@
+{
+ "tier": "Exploratory; W9b t039 producer (X1 reports 73-76)",
+ "values": {
+  "ns_n": 734,
+  "ns_NR": 181,
+  "ns_configs": 46,
+  "ns_cand_auc": 0.6074051132446825,
+  "ns_cand_auc_ci": [
+   0.5591981556119274,
+   0.6523022547753239
+  ],
+  "ns_length_auc": 0.561028243733328,
+  "ns_cand_gain": 0.046376869511354446,
+  "ns_cand_gain_ci": [
+   0.004224470200380625,
+   0.08768588748208314
+  ],
+  "ns_p_fold_source": 0.5950413223140496,
+  "ns_p_length_band": 0.05785123966942149,
+  "ns_cand_gain_tok": 0.03483260567672075,
+  "ns_cand_gain_tok_ci": [
+   -0.009735401193658701,
+   0.07973146006978893
+  ],
+  "ns_prefix_auc": 0.4866773900272746,
+  "ns_drift_len_auc": 0.5571118859460702,
+  "val_roster": 473,
+  "val_roster_R": 294,
+  "val_roster_NR": 81,
+  "val_roster_floor": 27,
+  "val_roster_unusable": 71,
+  "val_registry_overlap": 473,
+  "val_prior_ids": 98,
+  "val_dev_overlap": 0,
+  "val_p_n": 331,
+  "val_p_R": 267,
+  "val_p_NR": 64,
+  "val_p_cand_auc": 0.530255149812734,
+  "val_p_cand_auc_ci": [
+   0.45578020643594414,
+   0.6083651386429921
+  ],
+  "val_p_length_auc": 0.5800854400749064,
+  "val_p_length_auc_ci": [
+   0.5106034803732583,
+   0.6526126186751643
+  ],
+  "val_p_gain": -0.04983029026217234,
+  "val_p_gain_ci": [
+   -0.1112226908386337,
+   0.01093380227937959
+  ],
+  "val_p_decision": "FAIL",
+  "val_s_n": 375,
+  "val_s_R": 294,
+  "val_s_NR": 81,
+  "val_s_cand_auc": 0.5725203661711599,
+  "val_s_cand_auc_ci": [
+   0.49889142663704067,
+   0.6449196355446355
+  ],
+  "val_s_length_auc": 0.6061560426639792,
+  "val_s_length_auc_ci": [
+   0.5421659459981386,
+   0.6724214924960524
+  ],
+  "val_s_gain": -0.03363567649281929,
+  "val_s_gain_ci": [
+   -0.09195408299705435,
+   0.02236562129371246
+  ],
+  "val_s_decision": "FAIL",
+  "val_secondary_extra": 44
+ },
+ "raw_pointers": {
+  "ns_n": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_NR": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_configs": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_cand_auc": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_cand_auc_ci": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_length_auc": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_cand_gain": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_cand_gain_ci": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_p_fold_source": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_p_length_band": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_cand_gain_tok": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_cand_gain_tok_ci": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_prefix_auc": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "ns_drift_len_auc": "explore/X1/volume1955/run-1792464972961084800/{metrics.csv,predictions.csv,additional_paired_contrasts.json} (GSMPlus_nuisance)",
+  "val_roster": "explore/X1/independent0040/AUDIT.json",
+  "val_roster_R": "explore/X1/independent0040/AUDIT.json",
+  "val_roster_NR": "explore/X1/independent0040/AUDIT.json",
+  "val_roster_floor": "explore/X1/independent0040/AUDIT.json",
+  "val_roster_unusable": "explore/X1/independent0040/AUDIT.json",
+  "val_registry_overlap": "explore/X1/independent0040/AUDIT.json",
+  "val_prior_ids": "explore/X1/independent0040/AUDIT.json",
+  "val_dev_overlap": "explore/X1/independent0040/AUDIT.json",
+  "val_p_n": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_R": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_NR": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_cand_auc": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_cand_auc_ci": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_length_auc": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_length_auc_ci": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_gain": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_gain_ci": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_p_decision": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_n": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_R": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_NR": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_cand_auc": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_cand_auc_ci": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_length_auc": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_length_auc_ci": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_gain": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_gain_ci": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_s_decision": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}",
+  "val_secondary_extra": "explore/X1/amended0055/{RESULTS.json,*-SCORES.json,*-BOOTSTRAPS.csv}"
+ },
+ "checks": {
+  "freeze_sha256": "6bdb06b7e69c8467d664fdf141942cf44a6b3b24fa3f06d6cc97c8a03eb686e2",
+  "training": [
+   734,
+   553,
+   181
+  ],
+  "decisions_sha_bound_in_plan": "bf62f1e062524ef29539e1feaa30f2b2c7fa43325747d982f3f5bb7002581db5",
+  "decisions_sha_now": "bf62f1e062524ef29539e1feaa30f2b2c7fa43325747d982f3f5bb7002581db5",
+  "primary_subset_of_secondary": true
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\X1\\volume1955\\run-1792464972961084800\\metrics.csv": "70b4b22f10c05ebc3e26388de66dde3e791121dff827e433dc978ea0999f2594",
+  "E:\\work\\research-cycle\\explore\\X1\\volume1955\\run-1792464972961084800\\predictions.csv": "b740d3be45ca4265689f2315c0277fbd9829d317390346934c6d04021b03d7a9",
+  "E:\\work\\research-cycle\\explore\\X1\\volume1955\\run-1792464972961084800\\additional_paired_contrasts.json": "3cfd948cc97b4fcb1ccd54ba454315c83ed757a6a94ebb56bcd7be4bc9a30dfb",
+  "E:\\work\\research-cycle\\explore\\X1\\volume1955\\run-1792464972961084800\\VALIDATION.json": "23648e25c68e68f8fe7c7d2f607d92af3d3f502f4736f03eb79dc7e20bfae671",
+  "E:\\work\\research-cycle\\explore\\X1\\validation_freeze2045\\FREEZE.json": "6bdb06b7e69c8467d664fdf141942cf44a6b3b24fa3f06d6cc97c8a03eb686e2",
+  "E:\\work\\research-cycle\\explore\\X1\\validation_freeze2045\\TRAINING-DATA.csv": "4b93e2c86e359bc69b1d76cb21316f3351460680a87f653853b482dca7723803",
+  "E:\\work\\research-cycle\\explore\\X1\\independent0040\\AUDIT.json": "b800d847089a29f2dec07b022813f34504bb84fce51dbfd6b0c1c196cf2303a0",
+  "E:\\work\\research-cycle\\explore\\X1\\amended0055\\RESULTS.json": "d2419968a431bfb21819af77dd029fccaa09b1d7b72d3e2b98c9c99428037d44",
+  "E:\\work\\research-cycle\\explore\\X1\\AMENDED-REPORT74-APPLIED-ONCE.json": "cc9bca4e7baeea0d44093da8476b793cbf2cdf0b865d484be062a8dc3c936839",
+  "E:\\work\\research-cycle\\explore\\X1\\amended0055\\PLAN-BEFORE-SCORES.json": "32dbdc1e0f55f6dc9a896719fc244df467d419168ffe859cd436fab3183c0cec",
+  "E:\\work\\research-cycle\\explore\\X1\\amended0055\\PRIMARY_no_prior_label-SCORES.json": "a1ceed3b3a4d32fd942ee32d4a2ba838584950b6961e94e785b863ae3c15420c",
+  "E:\\work\\research-cycle\\explore\\X1\\amended0055\\PRIMARY_no_prior_label-BOOTSTRAPS.csv": "2adefb99232fbe1e401e0f97d963870b61dc65a34da96ae2e6c619af19f2a661",
+  "E:\\work\\research-cycle\\explore\\X1\\amended0055\\SECONDARY_all_binary-SCORES.json": "1321703d010f138698402c361f0b431f801090a2a2a9d467e85d804845a90813",
+  "E:\\work\\research-cycle\\explore\\X1\\amended0055\\SECONDARY_all_binary-BOOTSTRAPS.csv": "1bf3179b488d56bcb4a22c711182e311d57ce97b779d5a8cb8ea34b3ad81192e"
+ },
+ "producer_sha256": "66ffd9088a35df0d0dfdf6c9b4e3f69de30e16f37960a03211be170317b443a9"
+}

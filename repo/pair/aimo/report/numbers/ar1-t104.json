@@ -1,0 +1,229 @@
+{
+ "tier": "SHAM Phase 1: preregistered exploratory (freeze cf704ca3), scored once on the box 26 Oct; BLIND REPLAY PENDING. Leaderboard: AM1 board read and simulation. Stored values; AR1 t104 producer for report v1.1.",
+ "values": {
+  "p1s_n": 320,
+  "p1s_waves": 12,
+  "p1s_dpv": 48,
+  "p1s_draws": 76800,
+  "p1s_tokens": 80053900,
+  "p1s_gpu_h": 16.9,
+  "p1s_primary": 0.052,
+  "p1s_primary_ci": [
+   0.04,
+   0.065
+  ],
+  "p1s_reading": "edit loss in solve probability",
+  "p1s_cal1": 0.0013,
+  "p1s_cal1_ci": [
+   -0.0049,
+   0.0072
+  ],
+  "p1s_cal2_tests": 767,
+  "p1s_cal2_share": 0.046,
+  "p1s_cal2_reading": "pass",
+  "p1s_S": 0.053,
+  "p1s_S_ci": [
+   0.04,
+   0.067
+  ],
+  "p1s_tau": 0.112,
+  "p1s_t1_n": 207,
+  "p1s_t1_real": 0.235,
+  "p1s_t1_real_ci": [
+   0.197,
+   0.273
+  ],
+  "p1s_t1_sham": 0.183,
+  "p1s_t1_sham_ci": [
+   0.15,
+   0.218
+  ],
+  "p1s_t1_delta": 0.052,
+  "p1s_t1_delta_ci": [
+   0.024,
+   0.081
+  ],
+  "p1s_t1_ratio": 0.78,
+  "p1s_t1_ratio_ci": [
+   0.68,
+   0.89
+  ],
+  "p1s_t2_n": 223,
+  "p1s_t2_real": 0.231,
+  "p1s_t2_real_ci": [
+   0.197,
+   0.269
+  ],
+  "p1s_t2_sham": 0.176,
+  "p1s_t2_sham_ci": [
+   0.146,
+   0.208
+  ],
+  "p1s_t2_delta": 0.055,
+  "p1s_t2_delta_ci": [
+   0.029,
+   0.082
+  ],
+  "p1s_t2_ratio": 0.76,
+  "p1s_t2_ratio_ci": [
+   0.66,
+   0.86
+  ],
+  "p1s_t3_n": 250,
+  "p1s_t3_real": 0.239,
+  "p1s_t3_real_ci": [
+   0.205,
+   0.277
+  ],
+  "p1s_t3_sham": 0.173,
+  "p1s_t3_sham_ci": [
+   0.144,
+   0.205
+  ],
+  "p1s_t3_delta": 0.066,
+  "p1s_t3_delta_ci": [
+   0.038,
+   0.094
+  ],
+  "p1s_t3_ratio": 0.73,
+  "p1s_t3_ratio_ci": [
+   0.64,
+   0.83
+  ],
+  "p1s_t4": 0.0177,
+  "p1s_t4_ci": [
+   -0.0006,
+   0.0357
+  ],
+  "p1s_t4_n": 223,
+  "p1s_t4_reading": "not shown within 0.03 of N0",
+  "p1s_elig_pct": 64.7,
+  "p1s_solve_elig": 0.037,
+  "p1s_solve_elig_ci": [
+   0.028,
+   0.047
+  ],
+  "p1s_solve_inelig": 0.079,
+  "p1s_solve_inelig_ci": [
+   0.049,
+   0.11
+  ],
+  "p1s_inelig_n": 113,
+  "p1s_solve_unus": 0.073,
+  "p1s_solve_unus_ci": [
+   0.051,
+   0.098
+  ],
+  "p1s_unus_n": 153,
+  "p1s_solve_rest": 0.032,
+  "p1s_solve_rest_ci": [
+   0.022,
+   0.044
+  ],
+  "p1s_abst_base": 251,
+  "p1s_abst_surface_gs": 892,
+  "p1s_abst_surface_dlm": 739,
+  "p1s_abst_sham_a": 246,
+  "p1s_abst_sham_b": 265,
+  "lb_teams": 95,
+  "lb_cases": 14,
+  "lb_perfect": 4,
+  "lb_step": 7.1,
+  "lb_baseline": 0.5,
+  "lb_at_or_below": 28,
+  "lb_read_utc": "2026-10-27 06:17",
+  "lb_range70": [
+   0.429,
+   0.929
+  ],
+  "lb_outrank": 0.64,
+  "lb_tie": 0.13,
+  "lb_perfect_065_10": 2.26
+ },
+ "raw_pointers": {
+  "p1s_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /originals",
+  "p1s_waves": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /waves",
+  "p1s_dpv": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /draws_per_version",
+  "p1s_draws": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl :: non-empty lines (= sum /status_counts = originals x 5 x draws_per_version)",
+  "p1s_tokens": "planning/gpu-ops/SHAM-PHASE1-FINAL-CL4-20261026.json :: /exit/charged_tokens",
+  "p1s_gpu_h": "planning/gpu-ops/SHAM-PHASE1-FINAL-CL4-20261026.json :: constructed: /exit/charged_seconds / 3600; 1 dp",
+  "p1s_primary": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /PRIMARY_solve_vs_sham/est; 3 dp",
+  "p1s_primary_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /PRIMARY_solve_vs_sham/ci95; 3 dp",
+  "p1s_reading": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /PRIMARY_reading",
+  "p1s_cal1": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /CAL1_base_minus_sham/est; 4 dp",
+  "p1s_cal1_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /CAL1_base_minus_sham/ci95; 4 dp",
+  "p1s_cal2_tests": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /CAL2_sham_z/tests",
+  "p1s_cal2_share": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /CAL2_sham_z/share_abs_z_gt_1_96; 3 dp",
+  "p1s_cal2_reading": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /CAL2_sham_z/reading",
+  "p1s_S": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S_solve_vs_base/est; 3 dp",
+  "p1s_S_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S_solve_vs_base/ci95; 3 dp",
+  "p1s_tau": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S_tau; 3 dp",
+  "p1s_t1_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/n",
+  "p1s_t1_real": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/real/est; 3 dp",
+  "p1s_t1_real_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/real/ci95; 3 dp",
+  "p1s_t1_sham": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/sham/est; 3 dp",
+  "p1s_t1_sham_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/sham/ci95; 3 dp",
+  "p1s_t1_delta": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/delta/est; 3 dp",
+  "p1s_t1_delta_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/delta/ci95; 3 dp",
+  "p1s_t1_ratio": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/ratio_sham_over_real/est; 2 dp",
+  "p1s_t1_ratio_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T1_joint/ratio_sham_over_real/ci95; 2 dp",
+  "p1s_t2_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/n",
+  "p1s_t2_real": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/real/est; 3 dp",
+  "p1s_t2_real_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/real/ci95; 3 dp",
+  "p1s_t2_sham": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/sham/est; 3 dp",
+  "p1s_t2_sham_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/sham/ci95; 3 dp",
+  "p1s_t2_delta": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/delta/est; 3 dp",
+  "p1s_t2_delta_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/delta/ci95; 3 dp",
+  "p1s_t2_ratio": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/ratio_sham_over_real/est; 2 dp",
+  "p1s_t2_ratio_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T2_own/ratio_sham_over_real/ci95; 2 dp",
+  "p1s_t3_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/n",
+  "p1s_t3_real": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/real/est; 3 dp",
+  "p1s_t3_real_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/real/ci95; 3 dp",
+  "p1s_t3_sham": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/sham/est; 3 dp",
+  "p1s_t3_sham_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/sham/ci95; 3 dp",
+  "p1s_t3_delta": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/delta/est; 3 dp",
+  "p1s_t3_delta_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/delta/ci95; 3 dp",
+  "p1s_t3_ratio": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/ratio_sham_over_real/est; 2 dp",
+  "p1s_t3_ratio_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T3_own_spec_rule/ratio_sham_over_real/ci95; 2 dp",
+  "p1s_t4": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T4_sham_minus_N0/est; 4 dp",
+  "p1s_t4_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T4_sham_minus_N0/ci95; 4 dp",
+  "p1s_t4_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T4_sham_minus_N0/n",
+  "p1s_t4_reading": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /T4_reading",
+  "p1s_elig_pct": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: 100 x /E_eligible_T1/share; 1 dp",
+  "p1s_solve_elig": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /E_solve_by_T1/eligible/est; 3 dp",
+  "p1s_solve_elig_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /E_solve_by_T1/eligible/ci95; 3 dp",
+  "p1s_solve_inelig": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /E_solve_by_T1/ineligible/est; 3 dp",
+  "p1s_solve_inelig_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /E_solve_by_T1/ineligible/ci95; 3 dp",
+  "p1s_inelig_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /E_solve_by_T1/ineligible/n",
+  "p1s_solve_unus": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S1_solve_by_fresh6h/UNUSABLE/est; 3 dp",
+  "p1s_solve_unus_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S1_solve_by_fresh6h/UNUSABLE/ci95; 3 dp",
+  "p1s_unus_n": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S1_solve_by_fresh6h/UNUSABLE/n",
+  "p1s_solve_rest": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S1_solve_by_fresh6h/binary_or_floor/est; 3 dp",
+  "p1s_solve_rest_ci": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /S1_solve_by_fresh6h/binary_or_floor/ci95; 3 dp",
+  "p1s_abst_base": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /status_counts/base/abstain",
+  "p1s_abst_surface_gs": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /status_counts/surface_gs/abstain",
+  "p1s_abst_surface_dlm": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /status_counts/surface_dlm/abstain",
+  "p1s_abst_sham_a": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /status_counts/sham_a/abstain",
+  "p1s_abst_sham_b": "from-box/research/W9d/sham1-score/tree/explore/W9b/sham1/v1.1/out/RESULT.json :: /status_counts/sham_b/abstain",
+  "lb_teams": "explore/AM1-aimo/out/board_noise.json :: /board/small_teams",
+  "lb_cases": "explore/AM1-aimo/out/board_noise.json :: /board/small_n_cases",
+  "lb_perfect": "explore/AM1-aimo/out/board_noise.json :: /board/small_perfect",
+  "lb_step": "explore/AM1-aimo/out/board_noise.json :: constructed: 100 / /board/small_n_cases (points per case); 1 dp",
+  "lb_baseline": "explore/AM1-aimo/out/board_noise.json :: the Small baseline as recorded in the key name /board/small_at_or_below_baseline_0.50; 2 dp",
+  "lb_at_or_below": "explore/AM1-aimo/out/board_noise.json :: /board/small_at_or_below_baseline_0.50",
+  "lb_read_utc": "explore/AM1-aimo/out/board_noise.json :: /board/last_updated_at (minute)",
+  "lb_range70": "explore/AM1-aimo/out/board_noise.json :: /score_range_95_n14/0.7 (95% range of a true-0.70 method on 14 cases); 3 dp",
+  "lb_outrank": "explore/AM1-aimo/out/board_noise.json :: /outrank_n14/0.7_vs_0.6/strictly_above; 2 dp",
+  "lb_tie": "explore/AM1-aimo/out/board_noise.json :: /outrank_n14/0.7_vs_0.6/tie; 2 dp",
+  "lb_perfect_065_10": "explore/AM1-aimo/out/board_noise.json :: /expected_teams_at_100pct_of_95/p0.65_m10; 2 dp"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\sham1-score\\tree\\explore\\W9b\\sham1\\v1.1\\out\\RESULT.json": "23db1055b0180e0c3d61864eb22756a0dd38f57de2bfdb03307f9941d4bf8e18",
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\sham1-score\\tree\\explore\\W9b\\sham1\\v1.1\\out\\DRAWS.jsonl": "86e0aca09bcca52f737b48cc28961808f92cb14e002fba91afe1033c77e5804e",
+  "E:\\work\\research-cycle\\from-box\\research\\W9d\\sham1-score\\tree\\explore\\W9b\\sham1\\v1.1\\out\\SCORE-ONCE-STARTED.json": "68b76ddb697730244c08f521728bca8306c069e5cdfbd4b989398d7528773c9e",
+  "E:\\work\\research-cycle\\explore\\W9b\\sham1\\v1.1\\SHAM1-FREEZE-v1.1.sha256": "cf704ca303b4791351426d97f9be715e7a475644be557e1498e1f11794a94b5b",
+  "E:\\work\\research-cycle\\explore\\W9b\\sham1\\v1.1\\score_phase1.py": "a430019242757aae788ced32795cf944536ef2e4f3c5dd5cedac293c97e5370c",
+  "E:\\work\\research-cycle\\planning\\gpu-ops\\SHAM-PHASE1-FINAL-CL4-20261026.json": "3d1fc4d37fe6397b508e67df7d717e41b2f5264e4632217e984166ba10fb1eaf",
+  "E:\\work\\research-cycle\\explore\\AM1-aimo\\out\\board_noise.json": "b699940ceddf7ed8800f30d98467621e3e24ee4760b0296d9adb37cc6f4a176a"
+ }
+}

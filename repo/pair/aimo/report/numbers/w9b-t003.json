@@ -1,0 +1,187 @@
+{
+ "tier": "Exploratory; W9b t003 producer for report draft v0.3 (AN-50 why-fragility values, frozen-spec run; curve values constructed).",
+ "values": {
+  "wf_n_originals": 34,
+  "wf_n_used": 29,
+  "wf_n_excluded": 5,
+  "wf_rho_n0": 0.915,
+  "wf_rho_n0_ci": [
+   0.8,
+   0.95
+  ],
+  "wf_rho_n1": 0.888,
+  "wf_rho_n1_ci": [
+   0.78,
+   0.94
+  ],
+  "wf_split_half": 0.861,
+  "wf_split_half_sb": 0.925,
+  "wf_ols_intercept": 0.038,
+  "wf_ols_slope": 1.02,
+  "wf_ols_r2": 0.88,
+  "wf_excess": 0.043,
+  "wf_excess_ci": [
+   0.015,
+   0.071
+  ],
+  "wf_y_range": [
+   0.02,
+   0.68
+  ],
+  "wf_overdisp_med": 1.01,
+  "wf_rho_len": 0.38,
+  "wf_rho_len_ci": [
+   0.02,
+   0.66
+  ],
+  "wf_rho_acc": -0.82,
+  "wf_rho_acc_ci": [
+   -0.9,
+   -0.65
+  ],
+  "wf_pc_acc": 0.31,
+  "wf_pc_acc_ci": [
+   -0.24,
+   0.61
+  ],
+  "wf_rho_var": 0.82,
+  "wf_rho_var_ci": [
+   0.66,
+   0.9
+  ],
+  "wf_pc_var": -0.14,
+  "wf_pc_var_ci": [
+   -0.44,
+   0.36
+  ],
+  "wf_rho_effort": 0.54,
+  "wf_rho_effort_ci": [
+   0.2,
+   0.74
+  ],
+  "wf_pc_effort": -0.14,
+  "wf_pc_effort_ci": [
+   -0.46,
+   0.32
+  ],
+  "wf_rho_gap_gs": -0.17,
+  "wf_rho_gap_gs_ci": [
+   -0.5,
+   0.24
+  ],
+  "wf_pc_gap_gs": 0.02,
+  "wf_pc_gap_gs_ci": [
+   -0.45,
+   0.46
+  ],
+  "wf_rho_gap_dlm": -0.01,
+  "wf_rho_gap_dlm_ci": [
+   -0.47,
+   0.41
+  ],
+  "wf_pc_gap_dlm": 0.16,
+  "wf_pc_gap_dlm_ci": [
+   -0.36,
+   0.61
+  ],
+  "wf_n_props_tested": 9,
+  "wf_min_perm_p": 0.12,
+  "wf_min_holm_p": 1,
+  "wf_f6_n": 313,
+  "wf_f6_nr": 68,
+  "wf_f6_auc_n0": 0.739,
+  "wf_f6_auc_n0_ci": [
+   0.67,
+   0.8
+  ],
+  "wf_f6_auc_len": 0.635,
+  "wf_f6_auc_len_ci": [
+   0.56,
+   0.71
+  ],
+  "wf_f6_n0_coef": 0.87,
+  "wf_f6_n0_coef_ci": [
+   0.57,
+   1.2
+  ],
+  "wf_curve_99": 0.07,
+  "wf_curve_95": 0.28,
+  "wf_curve_90": 0.4,
+  "wf_curve_80": 0.48,
+  "wf_curve_50": 0.55,
+  "wf_curve_max": 1.0,
+  "wf_curve_argmax": 0.01,
+  "wf_drop_for_005_from_95": 0.015,
+  "wf_drop_for_005_from_90": 0.044
+ },
+ "raw_pointers": {
+  "wf_n_originals": "explore/W9b/whyfrag/RESULT.json :: /ready63/n_originals",
+  "wf_n_used": "explore/W9b/whyfrag/RESULT.json :: /ready63/n_used (>= 5 binary even waves)",
+  "wf_n_excluded": "explore/W9b/whyfrag/RESULT.json :: /ready63/excluded length",
+  "wf_rho_n0": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/N0/rho; 3 dp",
+  "wf_rho_n0_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/N0/ci/ci95; 2 dp",
+  "wf_rho_n1": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/N1/rho; 3 dp",
+  "wf_rho_n1_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/N1/ci/ci95; 2 dp",
+  "wf_split_half": "explore/W9b/whyfrag/RESULT.json :: /ready63/split_half/rho; 3 dp",
+  "wf_split_half_sb": "explore/W9b/whyfrag/RESULT.json :: /ready63/split_half/spearman_brown; 3 dp",
+  "wf_ols_intercept": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/ols_Y_on_N0/intercept; 3 dp",
+  "wf_ols_slope": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/ols_Y_on_N0/slope; 2 dp",
+  "wf_ols_r2": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/ols_Y_on_N0/R2; 2 dp",
+  "wf_excess": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/mean_Y_minus_N0/est; 3 dp",
+  "wf_excess_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/mean_Y_minus_N0/ci/ci95; 3 dp",
+  "wf_y_range": "explore/W9b/whyfrag/RESULT.json :: /ready63/A1/Y_range; 2 dp",
+  "wf_overdisp_med": "explore/W9b/whyfrag/RESULT.json :: /ready63/overdispersion_median; 2 dp",
+  "wf_rho_len": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/L/rho; 2 dp",
+  "wf_rho_len_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/L/rho_ci/ci95; 2 dp",
+  "wf_rho_acc": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T7/rho; 2 dp",
+  "wf_rho_acc_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T7/rho_ci/ci95; 2 dp",
+  "wf_pc_acc": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T7/partial_L_N0; 2 dp",
+  "wf_pc_acc_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T7/partial_L_N0_ci/ci95; 2 dp",
+  "wf_rho_var": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T8/rho; 2 dp",
+  "wf_rho_var_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T8/rho_ci/ci95; 2 dp",
+  "wf_pc_var": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T8/partial_L_N0; 2 dp",
+  "wf_pc_var_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T8/partial_L_N0_ci/ci95; 2 dp",
+  "wf_rho_effort": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T4/rho; 2 dp",
+  "wf_rho_effort_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T4/rho_ci/ci95; 2 dp",
+  "wf_pc_effort": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T4/partial_L_N0; 2 dp",
+  "wf_pc_effort_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T4/partial_L_N0_ci/ci95; 2 dp",
+  "wf_rho_gap_gs": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T9/rho; 2 dp",
+  "wf_rho_gap_gs_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T9/rho_ci/ci95; 2 dp",
+  "wf_pc_gap_gs": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T9/partial_L_N0; 2 dp",
+  "wf_pc_gap_gs_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T9/partial_L_N0_ci/ci95; 2 dp",
+  "wf_rho_gap_dlm": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T10/rho; 2 dp",
+  "wf_rho_gap_dlm_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T10/rho_ci/ci95; 2 dp",
+  "wf_pc_gap_dlm": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T10/partial_L_N0; 2 dp",
+  "wf_pc_gap_dlm_ci": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/T10/partial_L_N0_ci/ci95; 2 dp",
+  "wf_n_props_tested": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/* count with perm_p_L_N0",
+  "wf_min_perm_p": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/*/perm_p_L_N0 minimum; 2 dp",
+  "wf_min_holm_p": "explore/W9b/whyfrag/RESULT.json :: /ready63/A2/*/holm_p_L_N0 minimum",
+  "wf_f6_n": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/n",
+  "wf_f6_nr": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/NR",
+  "wf_f6_auc_n0": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/N0/auc; 3 dp",
+  "wf_f6_auc_n0_ci": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/N0/auc_ci/ci95; 2 dp",
+  "wf_f6_auc_len": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/L/auc; 3 dp",
+  "wf_f6_auc_len_ci": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/L/auc_ci/ci95; 2 dp",
+  "wf_f6_n0_coef": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/N0/logit_coef_given_L (per SD); 2 dp",
+  "wf_f6_n0_coef_ci": "explore/W9b/whyfrag/RESULT.json :: /fresh6h/W2_600/N0/logit_coef_ci/ci95; 2 dp",
+  "wf_curve_99": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: N0(p=0.99), 2 dp",
+  "wf_curve_95": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: N0(p=0.95), 2 dp",
+  "wf_curve_90": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: N0(p=0.9), 2 dp",
+  "wf_curve_80": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: N0(p=0.8), 2 dp",
+  "wf_curve_50": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: N0(p=0.5), 2 dp",
+  "wf_curve_max": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: max over p of N0(p), grid 0.001; 2 dp",
+  "wf_curve_argmax": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: argmax over p of N0(p), grid 0.001; 2 dp",
+  "wf_drop_for_005_from_95": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: smallest accuracy drop from 0.95 that raises N0 by 0.05, step 0.0005; 3 dp",
+  "wf_drop_for_005_from_90": "explore/W9b/whyfrag/why_fragility_varies.py :: constructed: smallest accuracy drop from 0.9 that raises N0 by 0.05, step 0.0005; 3 dp"
+ },
+ "checks": [
+  "RESULT and script shas pinned",
+  "RESULT.script_sha256 equals the pinned script",
+  "curve formula line found verbatim in the script"
+ ],
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\whyfrag\\RESULT.json": "01e52b412554ab20615faed8fbd9487dc8ef4dda94fa23763b9977aa7b3ec9ef",
+  "E:\\work\\research-cycle\\explore\\W9b\\whyfrag\\why_fragility_varies.py": "502a5c067a3935a35757692d22e3cf6f7bdac69c8cd49637f0037b9c3d793389"
+ },
+ "producer_sha256": "cd535f59622d30d063d2a0adaf9b7743d413d039b5d0168e607303354777185e"
+}

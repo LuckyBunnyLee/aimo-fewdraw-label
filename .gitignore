@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+repro/out/
+RELEASE-NOTES-FOR-BRANDON.md
+_withheld/

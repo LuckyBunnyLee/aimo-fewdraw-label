@@ -1,0 +1,38 @@
+# Recorded outputs of the README commands, 30 Oct 2026, Windows 11, Python 3.12.10, numpy 2.5.3, scipy 1.18.1, matplotlib 3.11.2
+
+$ python -B repro/reproduce_prospective.py
+draws 76800  problems 320  waves 12
+PRIMARY solve loss, rewrites vs identical copies: 0.052 [0.040, 0.065]  (0.05182291666666665)
+CAL1 original minus copies: 0.0013 [-0.0049, 0.0072]  (0.0013020833333333422)
+CAL2 share |z|>1.96: 0.0456 of 767 tests (pass);  reading: edit loss in solve probability
+T1 eligible: 207 problems (64.7%)
+T1 fragile rate, copies: 0.183 [0.150, 0.218];  real rewrites: 0.235 [0.197, 0.273]
+compared with the scorer output RESULT.json: ALL MATCH
+(exit 0)
+
+$ python -B repro/check_numbers.py
+419 measured values in the report
+   419  stored ok
+   173  upstream ok
+   244  upstream not machine-checked (scope is an expression, count, percent or post hoc rebuild, or its file is not released)
+     2  upstream not checked (pointer is not a plain JSON pointer)
+FAILURES: 0
+(exit 0)
+
+$ cd repo/explore/W9b/sham1/v1.1 && python -I -B score_phase1.py selftest
+selftest ok {'null': [-0.002443033854166665, 0.011221516927083326], 'planted_006': 0.053515625, 'shifted_sham': 'calibration failed: not read as an edit effect', 'T4_null': 0.00865423316934828, 'all_perfect': 'calibration not estimable: not read as an edit effect', 'no_eligible': 'not estimable: no eligible originals', 'zero_real_nr': 'undefined: no real-rewrite NR in this set (zero denominator)'}
+(exit 0)
+
+$ cd repo/explore/W9b/decomp && python -I -B decomp.py selftest
+selftest ok: mean delta 0.0265 tau 0.0117 (true 0.025) E_base 0.0595 E_pool 0.0514 residual 0.0263 kappa obs 0.016 implied Q1 0.011
+(exit 0)
+
+$ sha256sum -c submission/W16-C-constant-robust.zip.sha256
+submission/W16-C-constant-robust.zip: OK
+
+$ python -B -c "import sys; sys.path.insert(0, 'submission/W16-C-constant-robust.zip'); import solution; print(solution.are_robust('m', 'low', ['a', 'b']))"
+[True, True]
+
+$ python -B repro/fig1.py        (run once, earlier the same day; its output folder was then renamed repro/expected/)
+E:\work\research-cycle\aimo\release-v1\repro\out\fig1_tag_null_sham_v4b.png 781974c38833a8086213c4faa9b6e3c400ce4aef568ced52670d7ce95f3a508a mean sham 0.18325177238220716 mean real 0.23502502596705493 max marker n 75
+matplotlib 3.11.2 | PNG IDENTICAL to the report figure

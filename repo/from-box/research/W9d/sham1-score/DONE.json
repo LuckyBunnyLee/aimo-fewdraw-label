@@ -1,0 +1,48 @@
+﻿{
+    "status":  "finished",
+    "exit_code":  0,
+    "start":  "2026-10-26T18:21:08.6180750-07:00",
+    "end":  "2026-10-26T18:21:52.1118214-07:00",
+    "minutes":  0.7,
+    "script_sha256":  {
+                          "run_score_box.py":  "406a57e6a2883e13a53bdfb75d4fdf5e87ee3b1fb5aea8951bfcfeb5976c83e8",
+                          "launch_shim_d2.py":  "57144338d25d9594caf6dfdb389837760193008cf026be203badcb2bfd21f5dc"
+                      },
+    "command":  "cmd /c E:\\work\\box-out\\research\\jobs\\W9d-sham1-score.cmd",
+    "python":  "per cmd file (job venv)",
+    "threads":  1,
+    "cores":  1,
+    "affinity_mask":  "0x80000000",
+    "cuda_visible_devices":  "",
+    "note":  "SHAM Phase 1 score-once (W9d ticket), released by the lead; CL4 final receipt present. Lead-approved task-local venv .venv-scipy (numpy 2.3.5 via read-only .pth to /opt/vllm, scipy 1.18.1). NEVER retry. Runner: BX2.",
+    "not_hashed":  [
+                       ".venv-scipy\\"
+                   ],
+    "stdout_log":  "BX-STDOUT.log",
+    "stderr_log":  "BX-STDERR.log",
+    "outputs_sha256":  {
+                           "PRECHECK.json":  "ada8a3c094444557aff8d4be3fcf8054cc428491b25e0a099e3c42b4d9716153",
+                           "score.stderr.txt":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                           "score.stdout.txt":  "de504e0dfb140601ff31cfc03e72c397feb2a8c08f8b8a3903f3b2b90c23bc8f",
+                           "SCORE-COMPLETION.json":  "2ca17e686942465b0299a405e80febf210f46f46648806ca959b6774fab5f712",
+                           "SOURCE-SHA256-000.json":  "dff1558f438f42602a4976508c664bd11a37e9470b2ebc83ae92784d972222f1",
+                           "SOURCE-SHA256-001.json":  "88d32882f9bdb0e597796a09394cba6d6e599b734542876e81b3a1c201372c51",
+                           "SOURCE-SHA256-002.json":  "f17972af30c353a2507396295791d776360a38fc5c027475c2cb17558dfe9f8a",
+                           "SOURCE-SHA256-003.json":  "c318aa12fb6ef7f9b22f2b75e7afc78039a5e6c8fb587d39a8032c0924cea854",
+                           "SOURCE-SHA256-004.json":  "501673a1d0b86440361a081568debd07de44ed64daf4da7df743715f986ec2c6",
+                           "SOURCE-SHA256-005.json":  "839178b3f22dd5927f2409136417fc3c02a6d1e6cd7620f8d3186a906cadc965",
+                           "SOURCE-SHA256-006.json":  "f2d42e1319a453fc678a0d6776bbcef63d846da4e1a109783b877915447e0cc6",
+                           "SOURCE-SHA256-007.json":  "820b0cdadb63c8a24bf1209c8cded5583b240af216d8092bcd84c0fbc0948c1f",
+                           "tree/explore/W9b/decomp/__pycache__/decomp.cpython-312.pyc":  "aed3c1bbf6ceb2936a8d6c609e3b3a94778d344105890cde97f33f7edcf56d4f",
+                           "tree/explore/W9b/sham1/MANIFEST.json":  "3885f9da6de0ccfc53717f6e533ac62a90504f6d2f29ed4371249469bada4e57",
+                           "tree/explore/W9b/sham1/REQUESTS.json":  "68129da3f8c178b2bea4a8c5b9ef67f9ca5dd8bbf7f62652abd8e31d9ea3f8c2",
+                           "tree/explore/W9b/sham1/TRUTHS.json":  "a17a313bd39efb0c0f21c4d7a50a6c93e8baf7e34d70349e93556e744b8af835",
+                           "tree/explore/W9b/sham1/v1.1/__pycache__/wave_core.cpython-312.pyc":  "b93bd889477a02b3366640491e5d4d7172ea5c620406858b1a6d2c349a6cd524",
+                           "tree/explore/W9b/sham1/v1.1/out/DRAWS.jsonl":  "86e0aca09bcca52f737b48cc28961808f92cb14e002fba91afe1033c77e5804e",
+                           "tree/explore/W9b/sham1/v1.1/out/RESULT.json":  "23db1055b0180e0c3d61864eb22756a0dd38f57de2bfdb03307f9941d4bf8e18",
+                           "tree/explore/W9b/sham1/v1.1/out/SCORE-ONCE-STARTED.json":  "68b76ddb697730244c08f521728bca8306c069e5cdfbd4b989398d7528773c9e",
+                           "tree/explore/X3/__pycache__/fresh81_pure.cpython-312.pyc":  "5eac9aacd231186ed0013158f8bc755dfb5e76e2f5efcbef3d1fb77418e792a1",
+                           "WRAPPER.lock":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                       },
+    "bx_note":  "BX2: score-once CONSUMED, exit 0 (wrapper and frozen scorer), 0.7 min, stderr empty; never retry. ENVIRONMENT NOTE (lead-approved deviation): interpreter = task-local WSL venv E:\\work\\box-out\\research\\W9d\\sham1-score\\.venv-scipy (/opt/vllm/bin/python -m venv --system-site-packages --copies; read-only .pth to /opt/vllm/lib/python3.12/site-packages because /opt/vllm\u0027s base has no numpy; one wheel scipy 1.18.1 cp312 manylinux 35.3 MB). Python 3.12.3, numpy 2.3.5, scipy 1.18.1. /opt/vllm and all frozen files unchanged. Gate: CL4 run-folder FINAL-FOR-SCORING.json (utc 2026-10-27T01:20:36Z) + CL4 gpu-ops receipt. PRECHECK.json ada8a3c0...: waves complete 0-11, abandoned none, 16.91 h, 80,053,900 tokens, unsealed none, 76,857 source files hashed into SOURCE-SHA256-000..007. Frozen scorer a4300192..., freeze cf704ca3.... Outputs: RESULT.json 23db1055..., SCORE-ONCE-STARTED.json 68b76ddb..., DRAWS.jsonl 86e0aca0... (16 MB, stays on box). SCORE-COMPLETION.json 2ca17e68.... Headline as written by the scorer: PRIMARY solve vs sham +0.0518 [0.0396, 0.0654], n 320; CAL1 base-sham +0.0013 [-0.0049, 0.0072] (CI contains 0); CAL2 share |z|\u003e1.96 0.0456 of 767 (pass); PRIMARY_reading \u0027edit loss in solve probability\u0027. NOT for integration until the independent blind replay and blindness audit pass (plan)."
+}

@@ -1,0 +1,83 @@
+{
+  "scope": "EXPLORATORY freshpublicoriginals, not broadtemplateindependence or productionlabels",
+  "ready_originals": 34,
+  "requests": 408,
+  "template_families": {
+    "finite-Lp-limit": 1,
+    "sparse-rational-coefficient": 1,
+    "prime-binomial-splitting-degree": 1,
+    "bounded-composition-coefficient": 2,
+    "fractional-power-limits": 2,
+    "factorial-growth-limit": 1,
+    "log-power-cancellation": 2,
+    "constant-diagonal-matrix": 3,
+    "exponential-cancellation-limit": 1,
+    "Frobenius-polynomial-parity": 1,
+    "Lucas-binomial-parity": 2,
+    "improper-power-integral": 1,
+    "unbounded-composition-coefficient": 1,
+    "geometric-moment-series": 1,
+    "cyclotomic-splitting-degree": 1,
+    "nested-trig-limit": 1,
+    "modular-power-tower": 2,
+    "trig-root-sum": 1,
+    "higher-order-series-ratio": 2,
+    "stieltjes-jump": 1,
+    "log-trig-scale-ratio": 2,
+    "arccos-near-one": 1,
+    "infinity-power-difference": 1,
+    "polynomial-CRT": 1,
+    "nth-root-growth": 1
+  },
+  "publisher_difficulty": {
+    "6.5": 6,
+    "6.0": 23,
+    "7.0": 3,
+    "7.5": 1,
+    "8.0": 1
+  },
+  "model": "Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "settings": {
+    "max_new_tokens": 4096,
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 40,
+    "enable_thinking": false,
+    "stop": []
+  },
+  "source": "amz25/DeepMathGAP@2c6ca2e9c1e44969d67b50100b500fc3275927e0",
+  "licence": "CC-BY4.0contributions;underlyingDeepMathMITnotice;upstreamMMIQC/WebInstructSub/NuminaMathCoT/StackExchange provenancecaveat, no blanketclearance.",
+  "key_audit": "40independentderivations beforepublisherkeyjoin;40matches;6equivalentpriororiginalsexcluded;34admitted proofs+scope. Notpopulationerrorrate.",
+  "answer_preservation": "Exactsingleidentifierinversecertificatesallthreeviews; constants/operators/prose unchanged modulo auditednormalizations.",
+  "exclusions": "Frozen58registry inheritedscreen:959volume/full473validationroster including402usable,previous256,organisertexts; no sealedTESTread. Additional6semanticduplicatesreviewedout. No universal semanticdedup claim.",
+  "readiness": "READY FOR CL ADMISSION; CPUonly; not sent or launched",
+  "pilot": {
+    "chunk": 0,
+    "first_index": 0,
+    "count": 96,
+    "originals": 8,
+    "problem_ids": [
+      "deepmathgap-dmgap_012828",
+      "deepmathgap-dmgap_035363",
+      "deepmathgap-dmgap_018207",
+      "deepmathgap-dmgap_001569",
+      "deepmathgap-dmgap_012698",
+      "deepmathgap-dmgap_023247",
+      "deepmathgap-dmgap_015666",
+      "deepmathgap-dmgap_018250"
+    ]
+  },
+  "continuation": "Pilotfirst8; aftercompletion/keycanary/caps/pointNR/hQC, CL mayadmitnext8withoutpromptorparserchanges; preservealloutcomesandattemptcost.",
+  "GPU_hour_request_scaled_proxy": 0.15152738542399471,
+  "GPU_hour_fullcap_token_scaled_proxy": 0.3894216190650904,
+  "timing_note": "Scalingproxiesonly,nomeasuredfreshruntime/accuracy/NRyield;startup/prefill/censoring/batchvary.",
+  "scoring": "Strict11parityfinalcase-sensitiveANSWER/Fraction,capornonnumericunknown,all12numeric,base0floor,anyeditcount<basepointNR. Nonrejectnotrobustcertificate.",
+  "files": {
+    "CHUNKS.json": "8b12d33b57b1aa752bc0dd8a140cfe5f276a53948d596ffbdc5c2c0dd12828bd",
+    "MEMBERS-WITH-PROOFS.json": "1b27513c326e7c084c95f5921123d0c957764865804bc3e926b61e483954756d",
+    "REQUESTS.json": "bfc7f09aaffe3767ddefc0a4920fae2c02c5ab0e2a2f7fa090d29e365f663140",
+    "SLICES.json": "9d0962d42e0446228cbc1996bcf6152d9883e5825f801a79909f661ed2598ab6",
+    "TRUTHS.json": "e279b79a6a1044ec7893eb32a83492c5d6c9272e26e841d7ec194959c9f1580d"
+  }
+}

@@ -1,0 +1,65 @@
+{
+ "tier": "Exploratory; W9b t043 producer (values for the M1b wording fixes to draft v7.6)",
+ "values": {
+  "rel_bin_nr_repeat_pct": 46.8,
+  "rel_bin_r_repeat_pct": 77.3,
+  "rel_cells": 3400,
+  "rel_nonbinary_cells": 1155,
+  "rel_wave_binary_med": 22.0,
+  "rel_wave_binary_range": [
+   18,
+   30
+  ],
+  "rel_wave_nr_med": 7.0,
+  "rel_wave_losses": 42,
+  "f81_gain_tci": [
+   -0.197,
+   0.523
+  ],
+  "k154_incl_nr": 0.54,
+  "k154_incl_r": 0.21,
+  "k154_prior_nr_both": 6,
+  "k154_flip_share": 0.45,
+  "k154_ipw_flip_share": 0.35,
+  "e180_eps": 0.001,
+  "e180_power_01": 0.79,
+  "q1_rows": 53,
+  "q1_problems": 18,
+  "q1_sibling_groups": 11,
+  "q1_adj_r2_problem": 0.85
+ },
+ "raw_pointers": {
+  "rel_bin_nr_repeat_pct": "explore/W9b/ready63rel/out/RESULT.json :: 100 x sum counts/NR / sum (counts/NR + counts/R) over /S4/per_original with tag81 NR, 1 dp",
+  "rel_bin_r_repeat_pct": "explore/W9b/ready63rel/out/RESULT.json :: 100 x sum counts/R / sum (counts/NR + counts/R) over /S4/per_original with tag81 R, 1 dp",
+  "rel_cells": "explore/W9b/ready63rel/out/RESULT.json :: sum of all /S4/per_original/*/counts",
+  "rel_nonbinary_cells": "explore/W9b/ready63rel/out/RESULT.json :: sum of /S4/per_original/*/counts outside NR and R",
+  "rel_wave_binary_med": "explore/W9b/ready63rel/out/RESULT.json :: median /endpoints/strict_n4/per_wave_binary",
+  "rel_wave_binary_range": "explore/W9b/ready63rel/out/RESULT.json :: min, max /endpoints/strict_n4/per_wave_binary",
+  "rel_wave_nr_med": "explore/W9b/ready63rel/out/RESULT.json :: median /endpoints/strict_n4/per_wave_NR",
+  "rel_wave_losses": "explore/W9b/ready63rel/out/RESULT.json :: count of /endpoints/strict_n4/per_wave_primary_gain < 0",
+  "f81_gain_tci": "explore/X3/evening-20261020/81-ready63/RESULT.json :: /endpoints/strict_n4/bootstrap/template/interval95/interaction-A4/AUCgain, 3 dp",
+  "k154_incl_nr": "explore/X1/continuous0910/154/P34-FROZEN-ROSTER.json :: /strata/NR/inclusion_probability, 2 dp",
+  "k154_incl_r": "explore/X1/continuous0910/154/P34-FROZEN-ROSTER.json :: /strata/R/inclusion_probability, 2 dp",
+  "k154_prior_nr_both": "explore/W9b/154/out/RESULT.json :: /A_by_B/NR->R + /A_by_B/NR->NR",
+  "k154_flip_share": "explore/W9b/154/out/RESULT.json :: flips / both-binary from /A_by_B, 2 dp",
+  "k154_ipw_flip_share": "explore/W9b/154/out/RESULT.json + explore/X1/continuous0910/154/P34-FROZEN-ROSTER.json :: /A_by_B weighted by /strata/*/inverse_probability_weight of the prior tag, 2 dp",
+  "e180_eps": "explore/X1/round1530/180/METRICS.json :: epsilon of the boundary row (N 716, draws 4) whose NP_power the draft reports as e180_power",
+  "e180_power_01": "explore/X1/round1530/180/METRICS.json :: boundary, N 716, draws 4, epsilon 0.01: /NP_power, 2 dp",
+  "q1_rows": "pair/aimo/evidence/w9-019/q1-resolution.json :: /variance/dev_all_models/n",
+  "q1_problems": "pair/aimo/evidence/w9-019/q1-resolution.json :: /variance/dev_all_models/levels_problem",
+  "q1_sibling_groups": "pair/aimo/evidence/w9-019/q1-resolution.json :: /sibling_agreement/dev_all_models/groups",
+  "q1_adj_r2_problem": "pair/aimo/evidence/w9-019/q1-resolution.json :: /variance/dev_all_models/adj_r2_problem_only, 2 dp"
+ },
+ "checks": {
+  "rule": "values read or computed from sha-pinned raw files as stated; asserted against M1b re-derivations"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\ready63rel\\out\\RESULT.json": "98ebc88e7d7ce4d5aca91916fe4dfa8fa28d12c6f7a54fb21ae0403c1d31ac25",
+  "E:\\work\\research-cycle\\explore\\W9b\\154\\out\\RESULT.json": "d1a7b8ac4ff3cac03931802c675d30e6931381462f455d211860b6820717ca3e",
+  "E:\\work\\research-cycle\\explore\\X1\\continuous0910\\154\\P34-FROZEN-ROSTER.json": "aff344d1b09bcb44b3de25d0becf06144d36a40dfc45fec5a6d5def2e64672b6",
+  "E:\\work\\research-cycle\\explore\\X3\\evening-20261020\\81-ready63\\RESULT.json": "6d1827772332e11a64d836edafc42e6a3ad02df65118d1aa15f8418fe54a3256",
+  "E:\\work\\research-cycle\\explore\\X1\\round1530\\180\\METRICS.json": "afee56721fcd02588438717fefc0ebbdebdf6ee45642ca1a5bb8508e1a5dcb1b",
+  "E:\\work\\research-cycle\\pair\\aimo\\evidence\\w9-019\\q1-resolution.json": "2e16ffad603c6130ab025f627138bad1535eae21fc4f087d162ed5aa72051d0b"
+ },
+ "producer_sha256": "4e5b075fcba1972d888b31fc6ec0b6ed858186eb7d7487e2a33d4cf589a22d31"
+}

@@ -1,0 +1,26 @@
+{
+ "source": "E:\\work\\research-cycle\\explore\\W9b\\decomp\\RESULT.json",
+ "source_sha256": "f70423eb7b03d70ac5252fdaee8464705b802cd0a3dc8b3d66127d3bb12ace0f",
+ "true_mean_edit_effect": 0.044227941176470595,
+ "sims": 2000,
+ "W12_effect": {
+  "P_lower_bound_above_0": 1.0,
+  "P_any_resolved": 1.0,
+  "mean_ci_halfwidth": 0.012564938960832321
+ },
+ "W12_null": {
+  "P_lower_bound_above_0": 0.0295,
+  "P_any_resolved": 0.053,
+  "mean_ci_halfwidth": 0.004773016001214207
+ },
+ "W8_effect": {
+  "P_lower_bound_above_0": 1.0,
+  "P_any_resolved": 1.0,
+  "mean_ci_halfwidth": 0.013150981545800758
+ },
+ "W8_null": {
+  "P_lower_bound_above_0": 0.024,
+  "P_any_resolved": 0.048,
+  "mean_ci_halfwidth": 0.00584342595700982
+ }
+}

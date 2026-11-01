@@ -1,0 +1,77 @@
+{
+ "tier": "Preregistered exploratory (THINKREP r2, scored once 25 Oct); stored values, no new computation; W9c t093 producer for report v1.0.",
+ "values": {
+  "tr_waves": 19,
+  "tr_w19_missing": 32,
+  "tr_draws": 7752,
+  "tr_trunc": 5,
+  "tr_missing": 33,
+  "tr_abstain": 86,
+  "tr_abstain_gs": 76,
+  "tr_kappa": 0.386,
+  "tr_kappa_ci": [
+   0.068,
+   0.673
+  ],
+  "tr_kappa_n": 34,
+  "tr_nr_pooled": 0.092,
+  "tr_kappa_S": 0.104,
+  "tr_kappa_S_ci": [
+   0.021,
+   0.175
+  ],
+  "tr_kappa_L": 0.073,
+  "tr_kappa_L_ci": [
+   -0.034,
+   0.162
+  ],
+  "tr_nr_L": 0.054,
+  "tr_oracle_loo": 0.882,
+  "tr_gain": 0.114,
+  "tr_gain_ci": [
+   -0.054,
+   0.275
+  ],
+  "tr_gain_mde": 0.24,
+  "tr_s3_rho": 0.574,
+  "tr_s3_rho_ci": [
+   0.27,
+   0.788
+  ],
+  "tr_s3_n": 32,
+  "tr_nrfrac_on": 0.056,
+  "tr_nrfrac_off": 0.335
+ },
+ "raw_pointers": {
+  "tr_waves": "explore/W9b/thinkrep/out/RESULT.json :: /operational/included_waves (count)",
+  "tr_w19_missing": "explore/W9b/thinkrep/out/RESULT.json :: 408 - /operational/layout/present_per_wave/19",
+  "tr_draws": "explore/W9b/thinkrep/out/RESULT.json :: /operational/draws_in_included_waves",
+  "tr_trunc": "explore/W9b/thinkrep/out/RESULT.json :: sum /operational/truncated_by_family",
+  "tr_missing": "explore/W9b/thinkrep/out/RESULT.json :: sum /operational/status_by_family/*|missing",
+  "tr_abstain": "explore/W9b/thinkrep/out/RESULT.json :: sum /operational/status_by_family/*|abstain",
+  "tr_abstain_gs": "explore/W9b/thinkrep/out/RESULT.json :: /operational/status_by_family/surface_gs|abstain",
+  "tr_kappa": "explore/W9b/thinkrep/out/RESULT.json :: /P1_kappa_O/kappa; 3 dp",
+  "tr_kappa_ci": "explore/W9b/thinkrep/out/RESULT.json :: /P1_kappa_O/bootstrap/ci95 (preregistered percentile); 3 dp",
+  "tr_kappa_n": "explore/W9b/thinkrep/out/RESULT.json :: /P1_kappa_O/subjects",
+  "tr_nr_pooled": "explore/W9b/thinkrep/out/RESULT.json :: /P1_kappa_O/pooled_NR; 3 dp",
+  "tr_kappa_S": "explore/W9b/thinkrep/out/RESULT.json :: /S1_strict/kappa/kappa; 3 dp",
+  "tr_kappa_S_ci": "explore/W9b/thinkrep/out/RESULT.json :: /S1_strict/kappa/bootstrap/ci95; 3 dp",
+  "tr_kappa_L": "explore/W9b/thinkrep/out/RESULT.json :: /S2_legacy_parser_kappa/kappa; 3 dp",
+  "tr_kappa_L_ci": "explore/W9b/thinkrep/out/RESULT.json :: /S2_legacy_parser_kappa/bootstrap/ci95; 3 dp",
+  "tr_nr_L": "explore/W9b/thinkrep/out/RESULT.json :: /S2_legacy_parser_kappa/pooled_NR; 3 dp",
+  "tr_oracle_loo": "explore/W9b/thinkrep/out/RESULT.json :: /P2_noise_ceiling_O/oracle_leave_wave_out/mean (scorer only; not in either replay); 3 dp",
+  "tr_gain": "explore/W9b/thinkrep/out/RESULT.json :: /P3_repeat_gain_O/observed; 3 dp",
+  "tr_gain_ci": "explore/W9b/thinkrep/out/RESULT.json :: /P3_repeat_gain_O/original_bootstrap/ci95; 3 dp",
+  "tr_gain_mde": "explore/W9b/thinkrep/out/RESULT.json :: /P3_repeat_gain_O/mde80; 3 dp",
+  "tr_s3_rho": "explore/W9b/thinkrep/out/RESULT.json :: /S3_cross_endpoint/spearman; 3 dp",
+  "tr_s3_rho_ci": "explore/W9b/thinkrep/out/RESULT.json :: /S3_cross_endpoint/ci95; 3 dp",
+  "tr_s3_n": "explore/W9b/thinkrep/out/RESULT.json :: /S3_cross_endpoint/n",
+  "tr_nrfrac_on": "explore/W9b/thinkrep/out/RESULT.json :: /S3_cross_endpoint/mean_NR_fraction_thinking; 3 dp",
+  "tr_nrfrac_off": "explore/W9b/thinkrep/out/RESULT.json :: /S3_cross_endpoint/mean_NR_fraction_nothink; 3 dp"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\explore\\W9b\\thinkrep\\out\\RESULT.json": "e791c9a09a320a6cfde9836c10b4cd2574be9bd233a34e783b250078b537cc7b",
+  "E:\\work\\research-cycle\\explore\\W9b\\thinkrep\\out\\INDEPENDENT-REPLAY.json": "06348947c24e1d8e2d852baadc14ba088be872ebe945b9b907baf3f83d72ca16",
+  "E:\\work\\research-cycle\\explore\\W9c\\thinkrep-blind\\BLIND-COMPARE.json": "a7ff9bf082a676736f6d78d536501bbac13c3ddef110b59a3be157963ad832b7"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "tier": "Exploratory; split of an existing key, no new computation; W9b t087b producer for report v0.8.",
+ "values": {
+  "top3_even_bin_1": 0,
+  "top3_even_bin_2": 1,
+  "top3_even_bin_3": 4
+ },
+ "raw_pointers": {
+  "top3_even_bin_1": "pair/aimo/report/numbers/w9b-t087.json :: /values/top3_even_bin[0] (binary even waves of the first-largest mean loss)",
+  "top3_even_bin_2": "pair/aimo/report/numbers/w9b-t087.json :: /values/top3_even_bin[1] (binary even waves of the second-largest mean loss)",
+  "top3_even_bin_3": "pair/aimo/report/numbers/w9b-t087.json :: /values/top3_even_bin[2] (binary even waves of the third-largest mean loss)"
+ },
+ "_manifest": {
+  "E:\\work\\research-cycle\\pair\\aimo\\report\\numbers\\w9b-t087.json": "17ea69b658ca1502af0d7c9d9a878cfc2f985020c29c7803d14c6ed0c2cd8957"
+ }
+}

@@ -1,0 +1,366 @@
+{
+  "n_draws": 40800,
+  "pins": {
+    "E:\\work\\research-cycle\\explore\\W9b\\ready63rel\\out\\DRAWS.jsonl": {
+      "expected": "e4c66547ecc6ac1aacc9a6921b5611f3e9e183eec7aab6b90e55cf49edaa01b3",
+      "actual": "e4c66547ecc6ac1aacc9a6921b5611f3e9e183eec7aab6b90e55cf49edaa01b3"
+    },
+    "explore/W9b/decomp/RESULT.json": {
+      "expected": "f70423eb7b03d70ac5252fdaee8464705b802cd0a3dc8b3d66127d3bb12ace0f",
+      "actual": "f70423eb7b03d70ac5252fdaee8464705b802cd0a3dc8b3d66127d3bb12ace0f"
+    },
+    "explore/W9b/decomp/SHAM-PHASE0-RESULT.json": {
+      "expected": "7cbdc2f0c899ea72ad40e5726c6f8dde1d627f00e4e027572feeece3b92d7b91",
+      "actual": "7cbdc2f0c899ea72ad40e5726c6f8dde1d627f00e4e027572feeece3b92d7b91"
+    }
+  },
+  "checks": [
+    {
+      "key": "dc_n_originals",
+      "actual": 34,
+      "printed": 34,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_n_used",
+      "actual": 29,
+      "printed": 29,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_n_used",
+      "actual": 29,
+      "printed": 29,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_even_bin_min",
+      "actual": 18,
+      "printed": 18,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_even_bin_max",
+      "actual": 50,
+      "printed": 50,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_meanY",
+      "actual": 0.3345550809138309,
+      "printed": 0.335,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_false",
+      "actual": 0.26293056293383454,
+      "printed": 0.263,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_real",
+      "actual": 0.34032725764239186,
+      "printed": 0.34,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_delta",
+      "actual": 0.0773966947085573,
+      "printed": 0.077,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_share",
+      "actual": 0.7725815579841565,
+      "printed": 0.77,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_cal",
+      "actual": -0.005472963346049415,
+      "printed": -0.005,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_bin_real",
+      "actual": 733,
+      "printed": 733,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_bin_sham",
+      "actual": 824,
+      "printed": 824,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_n_fewer_real",
+      "actual": 15,
+      "printed": 15,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_triples_all",
+      "actual": 957,
+      "printed": 957,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_state_real_unusable",
+      "actual": 21.21212121212121,
+      "printed": 21.2,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_state_real_nr",
+      "actual": 25.182863113897596,
+      "printed": 25.2,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_state_sham_unusable",
+      "actual": 11.80773249738767,
+      "printed": 11.8,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "sh_state_sham_nr",
+      "actual": 20.58516196447231,
+      "printed": 20.6,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_delta_solve",
+      "actual": 0.04422794117647059,
+      "printed": 0.044,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_delta_num",
+      "actual": 0.012386487970132138,
+      "printed": 0.012,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_tau_solve",
+      "actual": 0.10546255361576017,
+      "printed": 0.105,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_z_tests",
+      "actual": 67,
+      "printed": 67,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_z_sig",
+      "actual": 28,
+      "printed": 28,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_z_expected",
+      "actual": 3.35,
+      "printed": 3.4,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_top_mean_drop",
+      "actual": 0.5175000000000001,
+      "printed": 0.52,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_top3_min_mean_drop",
+      "actual": 0.14749999999999996,
+      "printed": 0.15,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_top3_excluded",
+      "actual": 3,
+      "printed": 3,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_top_drop",
+      "actual": 0.9225,
+      "printed": 0.92,
+      "status": "MATCH",
+      "basis": "independent draw aggregation/formula"
+    },
+    {
+      "key": "dc_n0_p5",
+      "actual": 0.5502604166666667,
+      "printed": 0.55,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p9",
+      "actual": 0.4037742850135013,
+      "printed": 0.4,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p95",
+      "actual": 0.2789349694546884,
+      "printed": 0.28,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p99",
+      "actual": 0.07425708578149226,
+      "printed": 0.07,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p9_n1",
+      "actual": 0.18999999999999995,
+      "printed": 0.19,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p9_n4",
+      "actual": 0.4037742850135013,
+      "printed": 0.4,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p9_n16",
+      "actual": 0.5452383045934833,
+      "printed": 0.55,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_n0_p9_n64",
+      "actual": 0.6071132979637252,
+      "printed": 0.61,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_lr_p8_d1",
+      "actual": 1.336306965562825,
+      "printed": 1.34,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_lr_p9_d1",
+      "actual": 1.5964837752060714,
+      "printed": 1.6,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_lr_p95_d1",
+      "actual": 2.2528211354083125,
+      "printed": 2.25,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_lr_p99_d1",
+      "actual": 7.906943314356228,
+      "printed": 7.91,
+      "status": "MATCH",
+      "basis": "independent finite binomial sum"
+    },
+    {
+      "key": "dc_E_base",
+      "actual": 0.07651596947267704,
+      "printed": 0.077,
+      "status": "MATCH",
+      "basis": "pinned corrected per-problem outputs; bootstrap not rerun"
+    },
+    {
+      "key": "dc_E_pool",
+      "actual": 0.04228445574124022,
+      "printed": 0.042,
+      "status": "MATCH",
+      "basis": "pinned corrected per-problem outputs; bootstrap not rerun"
+    },
+    {
+      "key": "dc_E_diff",
+      "actual": 0.03423151373143681,
+      "printed": 0.034,
+      "status": "MATCH",
+      "basis": "pinned corrected per-problem outputs; bootstrap not rerun"
+    },
+    {
+      "key": "dc_null",
+      "actual": 0.2580391114411539,
+      "printed": 0.258,
+      "status": "MATCH",
+      "basis": "pinned corrected per-problem outputs; bootstrap not rerun"
+    },
+    {
+      "key": "dc_edit",
+      "actual": 0.06038228666932332,
+      "printed": 0.06,
+      "status": "MATCH",
+      "basis": "pinned corrected per-problem outputs; bootstrap not rerun"
+    },
+    {
+      "key": "dc_resid",
+      "actual": 0.01613368280335372,
+      "printed": 0.016,
+      "status": "MATCH",
+      "basis": "pinned corrected per-problem outputs; bootstrap not rerun"
+    }
+  ],
+  "top3": [
+    {
+      "pid": "deepmathgap-dmgap_013818",
+      "delta": 0.5175000000000001,
+      "n_even_binary": 0
+    },
+    {
+      "pid": "deepmathgap-dmgap_023247",
+      "delta": 0.27,
+      "n_even_binary": 1
+    },
+    {
+      "pid": "deepmathgap-dmgap_031345",
+      "delta": 0.14749999999999996,
+      "n_even_binary": 4
+    }
+  ],
+  "limitations": "No bootstrap CIs independently rerun; corrected components only reaggregated. No earlier referee material read."
+}

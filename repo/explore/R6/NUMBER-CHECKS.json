@@ -1,0 +1,215 @@
+{
+  "pins": "all four producer pins and DRAWS pin match",
+  "n_draws": 40800,
+  "n_problems": 34,
+  "n_sham_used": 29,
+  "checks": [
+    {
+      "label": "N0(0.5)",
+      "rederived": 0.5502604166666667,
+      "paper": 0.55,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(0.9)",
+      "rederived": 0.4037742850135013,
+      "paper": 0.4,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(0.95)",
+      "rederived": 0.2789349694546884,
+      "paper": 0.28,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(0.99)",
+      "rederived": 0.07425708578149226,
+      "paper": 0.07,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(.9), n=1",
+      "rederived": 0.18999999999999995,
+      "paper": 0.19,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(.9), n=4",
+      "rederived": 0.4037742850135013,
+      "paper": 0.4,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(.9), n=16",
+      "rederived": 0.5452383045934833,
+      "paper": 0.55,
+      "status": "MATCH"
+    },
+    {
+      "label": "N0(.9), n=64",
+      "rederived": 0.6071132979637252,
+      "paper": 0.61,
+      "status": "MATCH"
+    },
+    {
+      "label": "LR p=0.8, delta=.1",
+      "rederived": 1.336306965562825,
+      "paper": 1.34,
+      "status": "MATCH"
+    },
+    {
+      "label": "LR p=0.9, delta=.1",
+      "rederived": 1.5964837752060714,
+      "paper": 1.6,
+      "status": "MATCH"
+    },
+    {
+      "label": "LR p=0.95, delta=.1",
+      "rederived": 2.2528211354083125,
+      "paper": 2.25,
+      "status": "MATCH"
+    },
+    {
+      "label": "LR p=0.99, delta=.1",
+      "rederived": 7.906943314356228,
+      "paper": 7.91,
+      "status": "MATCH"
+    },
+    {
+      "label": "Sham prevalence, mean problem rate",
+      "rederived": 0.26293056293383454,
+      "paper": 0.263,
+      "status": "MATCH"
+    },
+    {
+      "label": "Real prevalence, mean problem rate",
+      "rederived": 0.34032725764239186,
+      "paper": 0.34,
+      "status": "MATCH"
+    },
+    {
+      "label": "Real minus sham",
+      "rederived": 0.07739669470855731,
+      "paper": 0.077,
+      "status": "MATCH"
+    },
+    {
+      "label": "Sham/real rate ratio",
+      "rederived": 0.7725815579841565,
+      "paper": 0.77,
+      "status": "MATCH"
+    },
+    {
+      "label": "Observed even-wave fragile rate",
+      "rederived": 0.3345550809138309,
+      "paper": 0.335,
+      "status": "MATCH"
+    },
+    {
+      "label": "Mean all-answer solve drop",
+      "rederived": 0.04422794117647059,
+      "paper": 0.044,
+      "status": "MATCH"
+    },
+    {
+      "label": "Mean numeric-only drop",
+      "rederived": 0.012386487970132138,
+      "paper": 0.012,
+      "status": "MATCH"
+    },
+    {
+      "label": "Noise-corrected SD",
+      "rederived": 0.10546255361576017,
+      "paper": 0.105,
+      "status": "MATCH"
+    },
+    {
+      "label": "Significant rewrite comparisons",
+      "rederived": 28,
+      "paper": 28,
+      "status": "MATCH"
+    },
+    {
+      "label": "Testable rewrite comparisons",
+      "rederived": 67,
+      "paper": 67,
+      "status": "MATCH"
+    },
+    {
+      "label": "Largest arm drop",
+      "rederived": 0.9225,
+      "paper": 0.92,
+      "status": "MATCH"
+    },
+    {
+      "label": "Top three excluded",
+      "rederived": 3,
+      "paper": 3,
+      "status": "MATCH"
+    },
+    {
+      "label": "Corrected base null",
+      "rederived": 0.2580391114411539,
+      "paper": 0.258,
+      "status": "MATCH"
+    },
+    {
+      "label": "Base-only excess",
+      "rederived": 0.07651596947267703,
+      "paper": 0.077,
+      "status": "MATCH"
+    },
+    {
+      "label": "Pooled excess",
+      "rederived": 0.042284455741240234,
+      "paper": 0.042,
+      "status": "MATCH"
+    },
+    {
+      "label": "Excess difference",
+      "rederived": 0.03423151373143679,
+      "paper": 0.034,
+      "status": "MATCH"
+    },
+    {
+      "label": "Edit component",
+      "rederived": 0.060382286669323326,
+      "paper": 0.06,
+      "status": "MATCH"
+    },
+    {
+      "label": "Residual",
+      "rederived": 0.0161336828033537,
+      "paper": 0.016,
+      "status": "MATCH"
+    },
+    {
+      "label": "Sham calibration",
+      "rederived": -0.005472963346049409,
+      "paper": -0.005,
+      "status": "MATCH"
+    }
+  ],
+  "top_three": [
+    {
+      "pid": "deepmathgap-dmgap_013818",
+      "delta": 0.5175000000000001,
+      "se2": 0.00010708593750000003,
+      "maxdrop": 0.9225
+    },
+    {
+      "pid": "deepmathgap-dmgap_023247",
+      "delta": 0.27,
+      "se2": 0.00038221874999999996,
+      "maxdrop": 0.3075
+    },
+    {
+      "pid": "deepmathgap-dmgap_031345",
+      "delta": 0.14749999999999996,
+      "se2": 0.0007716484375,
+      "maxdrop": 0.32249999999999995
+    }
+  ],
+  "limitations": "No fresh CI/bootstrap replay; corrected null aggregation uses pinned per-problem corrected estimates."
+}

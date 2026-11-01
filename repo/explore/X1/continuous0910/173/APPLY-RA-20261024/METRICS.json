@@ -1,0 +1,59 @@
+{
+  "scope": "EXPLORATORY historically exposed harder labels; not new blind validation; old74/78decisions unchanged",
+  "all_originals": 128,
+  "state_counts": {
+    "NR_POINT": 14,
+    "UNUSABLE": 74,
+    "R_POINT": 38,
+    "FLOOR_UNINFORMATIVE": 2
+  },
+  "bootstrap_seed": 1945,
+  "bootstrap_replicates": 2000,
+  "results": [
+    {
+      "scope": "PRIMARY_raw_binary52",
+      "originals": 52,
+      "NR": 14,
+      "candidate_AUC": 0.5281954887218046,
+      "candidate_AUC_ci95": [
+        0.33872615262321143,
+        0.7111271249076127
+      ],
+      "frozen_length_AUC": 0.518796992481203,
+      "frozen_length_AUC_ci95": [
+        0.3135962064251538,
+        0.7093883727477477
+      ],
+      "gain": 0.009398496240601517,
+      "gain_ci95": [
+        -0.18751838235294113,
+        0.20240032403493932
+      ],
+      "valid_paired_bootstraps": 2000,
+      "exploratory_transfer_rule": "FAIL"
+    },
+    {
+      "scope": "SECONDARY_external_matrix_exclusion51",
+      "originals": 51,
+      "NR": 13,
+      "candidate_AUC": 0.5101214574898786,
+      "candidate_AUC_ci95": [
+        0.3124917328042328,
+        0.6928968253968252
+      ],
+      "frozen_length_AUC": 0.4979757085020243,
+      "frozen_length_AUC_ci95": [
+        0.3016194331983806,
+        0.7071816770186333
+      ],
+      "gain": 0.01214574898785431,
+      "gain_ci95": [
+        -0.2037247474747475,
+        0.21217165436456994
+      ],
+      "valid_paired_bootstraps": 2000,
+      "exploratory_transfer_rule": "FAIL"
+    }
+  ],
+  "no_fit": true
+}

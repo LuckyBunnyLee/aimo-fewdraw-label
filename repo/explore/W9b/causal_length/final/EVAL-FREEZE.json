@@ -1,0 +1,133 @@
+{
+ "design": "P1-only amendment",
+ "amendment": "explore/W9b/CAUSAL-LENGTH-AMENDMENT-P1-20261023.md (sha in its .sha256)",
+ "conditions": [
+  "control",
+  "pad"
+ ],
+ "waves": 12,
+ "block_order": [
+  [
+   0,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   1,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   2,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   3,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   4,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   5,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   6,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   7,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   8,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   9,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   10,
+   [
+    "control",
+    "pad"
+   ]
+  ],
+  [
+   11,
+   [
+    "control",
+    "pad"
+   ]
+  ]
+ ],
+ "cohort": 160,
+ "cohort_counts": {
+  "R": 80,
+  "NR": 80
+ },
+ "requests": 46080,
+ "requests_per_block": 3840,
+ "mean_dlog_pad_vs_control": 0.8215716648067177,
+ "min_dlog_pad_vs_control": 0.6931471805599453,
+ "est_tokens_per_request": 776.1763020833333,
+ "est_output_tokens": 35766204,
+ "base_rate_rule": "eligible NR share (no solver filter in this cohort); fresh6h 0.199 shown beside it",
+ "power_by_base_rate": {
+  "0.290": {
+   "power_at_0p05": 0.841,
+   "power_at_dose": 1.0,
+   "p_ci95_inside_0p05_under_null": 0.812,
+   "mean_se_null": 0.015193340382951625
+  },
+  "0.199": {
+   "power_at_0p05": 0.8595,
+   "power_at_dose": 1.0,
+   "p_ci95_inside_0p05_under_null": 0.8575,
+   "mean_se_null": 0.014379394090703587
+  }
+ },
+ "files": {
+  "P1-COHORT.json": "9a4a6cb27b5fe73d6ffffb8eec582652be937f4bd084859cd785fa72aa569a62",
+  "EVAL-REQUESTS.json": "30e495104353e499650cfca1489e19c15df602bae335d05a9fd206261b575b58",
+  "TRUTHS.json": "d9a3c030172c1a3ed6ea4ab964dff30c3b64e11d30e817e9faf9af7d25a772c8"
+ },
+ "frozen_inputs": {
+  "POOL": "3e7c4951fafe9f1e6c98724c752a2401c65229fe7ddc859c7b5c22c723036ed9",
+  "PAD": "d8c89f5a237509e75b056eb0f8a231d717a867d53c54c43c7ad3cd5e9b3ab09b",
+  "builder_r2": "20b8763656e14926922d837d995987657f0a971ac4b75855e9f265c7a509b835",
+  "power_producer": "71fc73f9f6839db342e4e064b7f6ac5386a2ddeb7de381215686c2a2aee162da"
+ },
+ "p1_builder_sha256": "743103309c0e7a021e48abb3410acb9f1dcb09a66ea14951e2e8be0ed5188043"
+}

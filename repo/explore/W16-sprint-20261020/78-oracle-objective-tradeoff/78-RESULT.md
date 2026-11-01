@@ -1,0 +1,13 @@
+# W16-78 — Predicting the finite label can reward a different signal from latent harm — EXPLORATORY
+
+In 41 of 120 exact synthetic regimes, an intrinsic-difficulty-only oracle beats a perfect latent-harm-class oracle at predicting the finite NR indicator. The intrinsic oracle has latent-harm AUC exactly .5 in every regime; the harm-class oracle has latent-harm AUC exactly one. This demonstrates an objective mismatch under specified toy laws, not the fraction of real labels that are noise.
+
+The grid varies response depth 2–64, latent prevalence .01–.5, harm .25 or .4, and one or both edited families. Base difficulty is independent of latent harm by construction. Exact Fraction expectations compare six forecasts, including constant, intrinsic-only, effect-class-only, shared no-effect and full finite-event oracles. The full finite-event oracle attains optimal AUC and Brier risk in all grid cases. The finite binary endpoint treats floor and, at larger depth, band outcomes as non-NR; it is not a certified robust label.
+
+One n2, prevalence .01, one-family .25-drop example has finite-label AUC .74682 for intrinsic-only versus .51145 for the perfect latent-class score, while their latent AUCs are .5 and one. A shared no-effect forecast evaluated at pooled accuracy reaches finite AUC .75429 and latent AUC .75. Pooling can carry genuine effect information: calling a model's forecasting law no-effect does not make its inputs pure noise. This qualifies interpretations of W16-68 and W16-76.
+
+A role-swap control has exactly equal pooled count laws but different harm directions. At n4, a pooled-only score has both AUCs .5, whereas a harm-class oracle has finite-label AUC .84034. Thus both difficulty and directional information may matter, depending on the target and design.
+
+Independent three-count Fraction enumeration checks 32 cases. Twelve Monte Carlo regimes, 240 datasets and 2.4 million synthetic problems reproduce all registered metrics within six Monte Carlo standard errors. No actual latent prevalence, label-error fraction, new model performance or submission winner is inferred. CPU only; TEST untouched.
+
+[Spec](SPEC-BEFORE-SCORES.json), [endpoint clarification](ENDPOINT-CLARIFICATION-BEFORE-RUN.json), [exact grid](EXACT-GRID-RESULTS.json), [role-swap control](ROLE-SWAP-CONTROL.json), [Monte Carlo](MONTE-CARLO-SUMMARY.json), [verification](VERIFICATION.json), [figure with repaired log ticks](FIGURE-78-v2.pdf), [runtime](FINISHED.json). Original figures are retained; v2 changes presentation only. The depth panels fix latent prevalence .05, drop .25 and harm to both edits.
